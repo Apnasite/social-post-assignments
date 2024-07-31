@@ -1,0 +1,1147 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024px;
+    height: 1024px;
+    position: relative;
+    background: #e8e8e8;
+}
+
+/* mazi css */
+
+.box1 {
+    width: 1024px;
+    height: 1024px;
+    background-color: purple;
+    border-top: 20mm solid #490649;
+    border-right: 14mm solid #490649;
+    border-left: 14mm solid #490649;
+    border-bottom: 14mm solid #490649;
+}
+
+.box2 {
+    position: absolute;
+    width: 919px;
+    height: 896px;
+    background-color: #722680;
+    top: 20mm;
+    left: 14mm;
+    overflow: hidden;
+}
+
+.line1 {
+    position: absolute;
+    height: 9mm;
+    width: 100mm;
+    background-color: #ea511f;
+    border-radius: 9mm;
+    top: 10mm;
+    right: -2mm;
+    transform: rotate(45deg);
+}
+
+.line2 {
+    position: absolute;
+    height: 15mm;
+    width: 50mm;
+    border: 1mm solid #ea511f;
+    border-radius: 15mm;
+    top: -6mm;
+    right: 3mm;
+    transform: rotate(45deg);
+}
+
+.line3 {
+    position: absolute;
+    height: 9mm;
+    width: 60mm;
+    background-image: linear-gradient(to left, rgb(53, 3, 53), #722680);
+    top: 75mm;
+    right: -17mm;
+    transform: rotate(45deg);
+}
+
+.line10 {
+    position: absolute;
+    height: 9mm;
+    width: 60mm;
+    background-image: linear-gradient(to right, rgb(53, 3, 53), #722680);
+    top: 65mm;
+    left: -17mm;
+    transform: rotate(45deg);
+}
+
+.line4 {
+    position: absolute;
+    height: 15mm;
+    width: 55mm;
+    background-image: linear-gradient(to left, rgb(218, 126, 92), orangered);
+    border-radius: 15mm;
+    top: 115mm;
+    right: -26mm;
+    transform: rotate(45deg);
+}
+
+.line5 {
+    position: absolute;
+    height: 10mm;
+    width: 50mm;
+    border: 1mm solid #ea511f;
+    border-radius: 10mm;
+    top: 160mm;
+    right: -20mm;
+    transform: rotate(45deg);
+}
+
+.line6 {
+    position: absolute;
+    height: 9mm;
+    width: 50mm;
+    border: 1mm solid #ea511f;
+    border-radius: 9mm;
+    bottom: 7mm;
+    left: 6mm;
+    transform: rotate(45deg);
+}
+
+.line7 {
+    position: absolute;
+    height: 6mm;
+    width: 50mm;
+    border-radius: 6mm;
+    background-color: rgb(209, 5, 209);
+    background-image: linear-gradient(to left, rgb(42 20 44), rgb(100 5 100));
+    bottom: 0mm;
+    left: 42mm;
+    transform: rotate(45deg);
+}
+
+.line8 {
+    position: absolute;
+    height: 15mm;
+    width: 50mm;
+    background-color: #ea511f;
+    border-radius: 15mm;
+    top: 160mm;
+    left: -29mm;
+    transform: rotate(45deg);
+}
+
+.line9 {
+    position: absolute;
+    height: 8mm;
+    width: 100mm;
+    border: 1mm solid #ea511f;
+    border-radius: 8mm;
+    top: 151mm;
+    left: -36mm;
+    transform: rotate(45deg);
+}
+
+.circle1 {
+    position: absolute;
+    height: 40mm;
+    width: 40mm;
+    background-color: #722680;
+    top: 0mm;
+    left: 0mm;
+    overflow: hidden;
+    border-radius: 0mm 0mm 50mm 0mm;
+}
+
+.cir1,
+.cir2,
+.cir3,
+.cir4,
+.cir5,
+.cir6,
+.cir7,
+.cir8,
+.cir9,
+.cir10,
+.cir11,
+.cir12,
+.cir13,
+.cir14,
+.cir15,
+.cir16 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1mm solid #ea511f;
+    transform: translate(-50%, -50%);
+    top: 0mm;
+    left: 0mm;
+}
+
+.cir1 {
+    height: 68mm;
+    width: 68mm;
+}
+
+.cir2 {
+    height: 64mm;
+    width: 64mm;
+}
+
+.cir3 {
+    height: 60mm;
+    width: 60mm;
+}
+
+.cir4 {
+    height: 56mm;
+    width: 56mm;
+}
+
+.cir5 {
+    height: 52mm;
+    width: 52mm;
+}
+
+.cir6 {
+    height: 48mm;
+    width: 48mm;
+}
+
+.cir7 {
+    height: 44mm;
+    width: 44mm;
+}
+
+.cir8 {
+    height: 40mm;
+    width: 40mm;
+}
+
+.cir9 {
+    height: 36mm;
+    width: 36mm;
+}
+
+.cir10 {
+    height: 32mm;
+    width: 32mm;
+}
+
+.cir11 {
+    height: 28mm;
+    width: 28mm;
+}
+
+.cir12 {
+    height: 24mm;
+    width: 24mm;
+}
+
+.cir13 {
+    height: 20mm;
+    width: 20mm;
+}
+
+.cir14 {
+    height: 16mm;
+    width: 16mm;
+}
+
+.cir15 {
+    height: 12mm;
+    width: 12mm;
+}
+
+.cir16 {
+    height: 8mm;
+    width: 8mm;
+}
+
+.circle2 {
+    position: absolute;
+    height: 40mm;
+    width: 40mm;
+    background-color: #722680;
+    bottom: 0mm;
+    right: 0mm;
+    overflow: visible;
+}
+
+.cirl1,
+.cirl2,
+.cirl3,
+.cirl4,
+.cirl5,
+.cirl6,
+.cirl7,
+.cirl8,
+.cirl9,
+.cirl10,
+.cirl11,
+.cirl12,
+.cirl13,
+.cirl14,
+.cirl15,
+.cirl16 {
+    position: absolute;
+    border-radius: 50%;
+    border: 1mm solid #ff3000;
+    ;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 100%;
+}
+
+.cirl1 {
+    height: 68mm;
+    width: 68mm;
+}
+
+.cirl2 {
+    height: 64mm;
+    width: 64mm;
+}
+
+.cirl3 {
+    height: 60mm;
+    width: 60mm;
+}
+
+.cirl4 {
+    height: 56mm;
+    width: 56mm;
+}
+
+.cirl5 {
+    height: 52mm;
+    width: 52mm;
+}
+
+.cirl6 {
+    height: 48mm;
+    width: 48mm;
+}
+
+.cirl7 {
+    height: 44mm;
+    width: 44mm;
+}
+
+.cirl8 {
+    height: 40mm;
+    width: 40mm;
+}
+
+.cirl9 {
+    height: 36mm;
+    width: 36mm;
+}
+
+.cirl10 {
+    height: 32mm;
+    width: 32mm;
+}
+
+.cirl11 {
+    height: 28mm;
+    width: 28mm;
+}
+
+.cirl12 {
+    height: 24mm;
+    width: 24mm;
+}
+
+.cirl13 {
+    height: 20mm;
+    width: 20mm;
+}
+
+.cirl14 {
+    height: 16mm;
+    width: 16mm;
+}
+
+.cirl15 {
+    height: 12mm;
+    width: 12mm;
+}
+
+.cirl16 {
+    height: 8mm;
+    width: 8mm;
+}
+
+
+
+/* mazi css */
+
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.content {
+    max-width: 297mm;
+    /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+
+.content-wrapper {
+    position: absolute;
+}
+
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    height: 113.39px;
+    width: 226.77px;
+    left: 388.46px;
+    top: -279mm;
+}
+
+.org-logo img {
+    top: 25.9px;
+    left: 1.56px;
+    height: 73%;
+    width: 109%;
+    position: absolute;
+}
+
+/* Organization name */
+.org-name h2 {
+    color: #ffffff;
+    position: absolute;
+    right: 179.98px;
+    top: 417.04px;
+    height: 75.59px;
+    width: 529.13px;
+    font-size: 22px;
+}
+
+.box2 .image img{
+    position: absolute;
+    left: 111px;
+    top: 105px;
+    width: 300.54px;
+    height: 90.39px;
+}
+
+.org-address {
+    position: absolute;
+    top: -41mm;
+    width: 241px;
+    height: 27mm;
+    left: 14mm;
+    border-radius: 8mm;
+    /* background-color: rgba(255, 255, 255, 0.211); */
+}
+
+.org-address p {
+    top: 20.8px;
+    position: absolute;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bolder;
+    display: none;
+}
+
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+
+.org-alternate-phone {
+    display: none;
+}
+
+.org-fax {
+    display: none;
+}
+
+.org-email {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: -143.97px;
+    bottom: -299.65px;
+    height: 18.9px;
+    width: 188.98px;
+}
+
+.org-email i {
+    font-size: 1.5em;
+}
+
+.org-website {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 56.13px;
+    bottom: -299.87px;
+    height: 18.9px;
+    width: 188.98px;
+}
+
+.org-website i {
+    font-size: 1.5em;
+}
+
+.org-phone {
+    position: absolute;
+    right: 7.56px;
+    top: 875.53px;
+    width: 415.75px;
+    height: 75.59px;
+    font-size: 42px;
+    color: red;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.org-phone1 {
+    height: 71px;
+    position: absolute;
+    right: 226.77px;
+    top: -3.78px;
+}
+
+.org-phone i {
+    font-size: 1.5em;
+}
+
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+
+.background-image img {
+    height: 359px;
+    position: absolute;
+    left: 0px;
+    top: 00px;
+    width: 1021.25px;
+}
+
+.image img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    ;
+    width: 453.54px;
+    height: 113.39px;
+}
+
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+
+.punchline1 {
+    position: absolute;
+    left: 0px;
+    top: 113.39px;
+    width: 453.54px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.heading-first {
+    position: absolute;
+    left: 182.13px;
+    top: -943.72px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 56px;
+    font-weight: bolder;
+    color: #f00;
+}
+
+.heading {
+    position: absolute;
+    left: 498.91px;
+    top: -882.42px;
+    width: 410.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 51px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #f38900fc;
+}
+
+.sub-heading {
+    position: absolute;
+    left: 143.59px;
+    top: -730.95px;
+    width: 338.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+    background-color: rgb(169 117 117 / 44%);
+}
+
+.description {
+    position: absolute;
+    left: 143.5px;
+    top: -693.31px;
+    width: 338.2px;
+    height: 370.98px;
+    text-align: justify;
+    padding: 5mm 7mm 7mm 7mm;
+    font-size: 19px;
+    background-color: rgb(169 117 117 / 44%);
+}
+
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: rgb(169 117 117 / 44%);
+    left: 506px;
+    top: -711.63px;
+    width: 369.75px;
+    height: 219.99px;
+    color: #ffffff;
+}
+
+/* Service */
+.service {
+    width: 340.16px;
+    height: 37.8px;
+
+}
+
+/* Service name */
+.service-name {
+    margin-top: 3.78px;
+    position: absolute;
+    margin-left: 28.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    color: #FFDC5B;
+}
+
+.service-image {
+    height: 105.83px;
+    position: absolute;
+    left: -15.12px;
+    top: 37.8px;
+}
+
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 71.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 28.81px;
+    text-wrap: balance;
+}
+
+
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    bottom: 63px;
+    left: 4px;
+    width: 185px;
+    top: -45px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 440.59px;
+    top: -297.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 34px;
+}
+
+
+
+
+/* Features */
+.features {
+    position: absolute;
+    left: 126px;
+    top: -65mm;
+    width: 200mm;
+    height: 50mm;
+    background-color: rgba(199, 199, 199, 0.44);
+    border-radius: 10mm;
+    overflow: visible;
+}
+
+/* Feature */
+.feature {
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 18px;
+}
+
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+
+.feature-name1 {
+    font-size: 31px;
+    position: absolute;
+    top: 12.25px;
+    left: 75.59px;
+}
+
+.feature-name2 {
+    font-size: 31px;
+    position: absolute;
+    top: 56.46px;
+    left: 20mm;
+}
+
+.feature-name3 {
+    font-size: 31px;
+    position: absolute;
+    top: 97.66px;
+    left: 75.44px;
+}
+
+.feature-name4 {
+    font-size: 31px;
+    position: absolute;
+    top: 136.13px;
+    left: 75.59px;
+}
+
+.feature-name5 {
+    font-size: 31px;
+    position: absolute;
+    top: 31.93px;
+    right: 88.29px;
+}
+
+.feature-name6 {
+    font-size: 31px;
+    position: absolute;
+    top: 80.72px;
+    right: 88.81px;
+}
+
+.feature-name7 {
+    font-size: 31px;
+    position: absolute;
+    top: 130.7px;
+    right: 66.81px;
+}
+
+.feature-imagee {
+    font-size: 31px;
+    position: absolute;
+    top: -298.5px;
+    left: 396.24px;
+}
+
+.feature-image1 {
+    font-size: 31px;
+    position: absolute;
+    top: 7.25px;
+    left: 26.46px;
+}
+
+.feature-image2 {
+    font-size: 31px;
+    position: absolute;
+    top: 53.24px;
+    left: 26.46px;
+}
+
+.feature-image3 {
+    font-size: 31px;
+    position: absolute;
+    top: 96.44px;
+    left: 26.46px;
+}
+
+.feature-image4 {
+    font-size: 31px;
+    position: absolute;
+    top: 136.35px;
+    left: 26.46px;
+}
+
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: 26.93px;
+    right: 313.91px;
+}
+
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: 75.72px;
+    right: 313.68px;
+}
+
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 123.3px;
+    right: 313.46px;
+}
+
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: -492.18px;
+    height: 37.8px;
+    left: 430.5px;
+    width: 369.8px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(169 117 117 / 44%);
+    color: #FFDC5B;
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: rgb(169 117 117 / 44%);
+    left: 506px;
+    top: -454.98px;
+    width: 369.75px;
+    height: 151.18px;
+}
+
+.term-image1 {
+    position: absolute;
+    top: 7.56px;
+    left: 41.57px;
+    height: 21px;
+}
+
+.term-image2 {
+    height: 22.68px;
+    position: absolute;
+    top: 26.46px;
+    left: 41.57px;
+}
+
+.term-image3 {
+    position: absolute;
+    top: 45.35px;
+    left: 41.57px;
+    height: 25px;
+}
+
+
+/* Term */
+.term {
+    font-weight: 100;
+    margin-top: 18.9px;
+
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.term-name {
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -7.56px;
+}
+
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+
+.term-image-MEMBERSHIP {
+    height: 105.83px;
+    position: absolute;
+    top: 12px;
+    left: -27px;
+    display: none;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+
+.location-icon {
+    color: #007bff;
+    /* Change color */
+    font-size: 24px;
+    /* Adjust size */
+    margin-right: 8px;
+    /* Space between icon and text */
+}
+
+
+/* Base class for all icons */
+.icon {
+    width: 24px;
+    /* Width of the icon */
+    height: 24px;
+    /* Height of the icon */
+    display: inline-block;
+    /* Ensure it behaves like an inline element but allows setting width/height */
+    background-image: url('icons.png');
+    /* Path to your sprite image */
+    background-size: cover;
+    /* Ensure the entire image is used */
+    margin-right: 10px;
+    /* Add space between the icon and the text */
+}
+
+/* Specific class for the "Free MCQ Bank (AI Based)" icon */
+.icon-mcq-bank {
+    background-position: -48px -24px;
+    /* Adjust according to the position of your icon in the sprite */
+}
+
+/* Class for aligning icons and text */
+.icon-container {
+    display: flex;
+    /* Use flexbox to align items */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 10px;
+    /* Add space between each row */
+}
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+
+.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+
+.Location {
+    position: absolute;
+    top: 806.72px;
+    left: 685.87px;
+    color: #FFDC5B;
+    font-size: 24px;
+    display: none;
+}
+
+.Location-imagee {
+    width: 75.59px;
+    position: absolute;
+    top: 816.28px;
+    right: 362.83px;
+    display: none;
+}
+
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+
+.footer {
+    position: absolute;
+    /* background-color: #2949c9; */
+    height: 37.8px;
+    left: -604.72px;
+    top: 317.48px;
+    width: 1069.61px;
+    height: 49.13px;
+}
+
+
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
