@@ -1,0 +1,859 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024px;
+    height: 1024px;
+    position: relative;
+    background: #db0808;
+}
+
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hexagon {
+    position: absolute;
+    left: 488px;
+    top: -94px;
+    width: 938px;
+    transform: rotate(-30deg);
+    overflow: hidden;
+    height: 848px;
+    background-color: #091e71;
+    clip-path: polygon(53% -3%, 105% 33%, 130% 31%, 35% 100%, 5% 81%, 10% 23%);
+    z-index: 4;
+}
+
+.box1 {
+    transform: skew(35deg, 121deg);
+    z-index: 2;
+    top: 34.3px;
+    right: 283px;
+    width: 193.13px;
+    height: 48.5px;
+    background: rgba(239, 28, 37, 255) !important;
+    position: absolute;
+}
+
+.box2 {
+    transform: skew(-27deg, -13deg);
+    z-index: 2;
+    top: -43.7px;
+    left: -54px;
+    width: 320.13px;
+    height: 249.5px;
+    background: rgba(33, 45, 59, 255) !important;
+    position: absolute;
+}
+
+.box3 {
+    transform: skew(-27deg, -8deg);
+    z-index: 2;
+    top: -5.7px;
+    left: 252px;
+    width: 41.13px;
+    height: 148.5px;
+    background: rgba(239, 28, 37, 255) !important;
+    position: absolute;
+}
+
+.box4 {
+    transform: skew(-30deg, -1deg);
+    z-index: 2;
+    bottom: -0.7px;
+    right: 415px;
+    width: 65.13px;
+    height: 120.5px;
+    background: rgba(187, 14, 16, 255) !important;
+    position: absolute;
+}
+
+.box5 {
+    transform: skew(26deg, -66deg);
+    z-index: 2;
+    top: 122.3px;
+    right: -321px;
+    width: 609.13px;
+    height: 533.5px;
+    background: rgba(229, 231, 233, 255) !important;
+    position: absolute;
+}
+
+.box6 {
+    transform: skew(-28deg, 0deg);
+    z-index: 2;
+    bottom: -0.7px;
+    right: -82px;
+    width: 492.13px;
+    height: 148.5px;
+    background-color: rgba(33, 45, 59, 255);
+    position: absolute;
+}
+
+.box7 {
+    position: absolute;
+    width: 309px;
+    height: 323px;
+    bottom: -146px;
+    left: 50px;
+    /* z-index: 2; */
+    background-color: rgba(232, 230, 233, 255);
+    clip-path: polygon(48% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Container */
+.content {
+    max-width: 297mm;
+    /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;
+    bottom: 929.76px;
+}
+
+.org-logo img {
+    top: 38.9px;
+    left: -414.44px;
+    height: 86%;
+    width: 86%;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Organization name */
+.org-name h2 {
+    color: #fbfaf8;
+    position: absolute;
+    right: -804.87px;
+    bottom: -369.87px;
+    height: 77.59px;
+    width: 542.13px;
+    font-size: 21px;
+    z-index: 2;
+}
+
+.org-address {
+    position: absolute;
+    background-color: black;
+    right: 698px;
+    top: 714.72px;
+    width: 307.75px;
+    height: 98.27px;
+}
+
+.org-address p {
+    top: 33.8px;
+    margin-left: 66.59px;
+    position: absolute;
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+
+.org-email {
+    font-size: 21px;
+    color: #fbfaf8;
+    position: absolute;
+    right: -603.87px;
+    bottom: -255.87px;
+    height: 0.9px;
+    width: 189.98px;
+    z-index: 2;
+
+}
+
+.org-website {
+    font-size: 21px;
+    color: #fbfaf8;
+    position: absolute;
+    right: -602.87px;
+    bottom: -229.87px;
+    height: 18.9px;
+    width: 187.98px;
+    z-index: 2;
+}
+
+.org-website i {
+    font-size: 1em;
+}
+
+.org-phone {
+    position: absolute;
+    right: 375.56px;
+    top: 915.53px;
+    width: 635.75px;
+    height: -72.41px;
+    font-size: 29px;
+    color: #f21a1a;
+    text-align: justify;
+    font-weight: bolder;
+    z-index: 3;
+}
+
+.org-phone1 {
+    height: 35px;
+    position: absolute;
+    right: 293.77px;
+    top: 5.22px;
+}
+
+.org-phone i {
+    font-size: 1.5em;
+}
+
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+
+.background-image img {
+    height: 210mm;
+    position: absolute;
+    left: 125mm;
+    top: 0mm;
+    width: 146mm;
+}
+
+.org-img {
+    position: absolute;
+    left: -1px;
+    top: -7px;
+    transform: rotate(30deg);
+    z-index: 4;
+}
+
+.image img {
+    position: absolute;
+    right: 3px;
+    bottom: 158px;
+    width: 364.54px;
+    height: 85.39px;
+    z-index: 2;
+}
+
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+
+.punchline1 {
+    position: absolute;
+    left: 0px;
+    top: 113.39px;
+    width: 453.54px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.heading-first {
+    position: absolute;
+    left: 72.13px;
+    top: 196.72px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #0b0b0b;
+}
+
+.heading {
+    position: absolute;
+    left: 75.91px;
+    top: 246.42px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 38px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #ff0505;
+}
+
+.sub-heading {
+    position: absolute;
+    left: 113.59px;
+    top: 293.95px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+
+.description {
+    position: absolute;
+    left: 15.9px;
+    top: 334.31px;
+    width: 517.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: black;
+    right: 699px;
+    top: 443.63px;
+    width: 306.75px;
+    height: 132.99px;
+    color: #ffffff;
+}
+
+/* Service */
+.service {
+    width: 340.16px;
+    height: 37.8px;
+
+}
+
+/* Service name */
+.service-name {
+    margin-top: 7.78px;
+    position: absolute;
+    margin-left: 57.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 17px;
+    color: #FFDC5B;
+}
+
+.service-image {
+    height: 66.83px;
+    position: absolute;
+    left: -9.12px;
+    top: 22.8px;
+}
+
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 51.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 59.81px;
+    text-wrap: balance;
+}
+
+.contact-us {
+    color: white;
+    left: -184.87px;
+    /* right: 4mm; */
+    text-align: center;
+    top: 814.76px;
+    position: absolute;
+    /* background-color: black; */
+    size: 57px;
+    border-right: 75pt solid transparent;
+    border-top: 26.75pt solid #FFDC5B;
+    border-left: 379pt solid #FFDC5B;
+}
+
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    bottom: 176px;
+    left: 68px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 377.59px;
+    top: 445.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+}
+
+/* Features */
+.features {
+    position: absolute;
+    left: 0px;
+    top: 718.11px;
+    width: 340.16px;
+    height: 264.57px;
+}
+
+/* Feature */
+.feature {
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 18px;
+}
+
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+
+.feature-name1 {
+    font-size: 24px;
+    position: relative;
+    top: -222.25px;
+    left: 382.59px;
+}
+
+.feature-name2 {
+    font-size: 24px;
+    position: relative;
+    top: -206.25px;
+    left: 382.59px;
+}
+
+.feature-name3 {
+    font-size: 24px;
+    position: relative;
+    top: -191.25px;
+    left: 382.59px;
+}
+
+.feature-name4 {
+    font-size: 24px;
+    position: relative;
+    top: -174.25px;
+    left: 382.59px;
+}
+
+.feature-name5 {
+    font-size: 24px;
+    position: relative;
+    top: -161.25px;
+    left: 379.59px;
+}
+
+.feature-name6 {
+    font-size: 24px;
+    position: relative;
+    top: -147.25px;
+    left: 382.59px;
+}
+
+.feature-name7 {
+    font-size: 24px;
+    position: relative;
+    top: -136.25px;
+    left: 382.59px;
+}
+
+.feature-imagee {
+    font-size: 31px;
+    position: absolute;
+    top: 434.5px;
+    left: 335.24px;
+}
+
+.feature-image1 {
+    font-size: 31px;
+    position: absolute;
+    top: -233.25px;
+    left: 331.24px;
+}
+
+.feature-image2 {
+    font-size: 31px;
+    position: absolute;
+    top: -184.24px;
+    left: 332.24px;
+}
+
+.feature-image3 {
+    font-size: 31px;
+    position: absolute;
+    top: -135.44px;
+    left: 334.24px;
+}
+
+.feature-image4 {
+    font-size: 31px;
+    position: absolute;
+    top: -91.65px;
+    left: 335.24px;
+}
+
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: -50.65px;
+    left: 335.24px;
+}
+
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: -7.28px;
+    left: 329.24px;
+}
+
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 37.3px;
+    left: 336.24px;
+}
+
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 584.18px;
+    height: 23.8px;
+    right: 698px;
+    width: 307.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: #FFDC5B;
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: black;
+    right: 698px;
+    top: 608.98px;
+    width: 308.75px;
+    height: 96.18px;
+}
+
+.term-image1 {
+    position: absolute;
+    top: 3.56px;
+    left: 38.57px;
+    height: 21px;
+}
+
+.term-image2 {
+    height: 24px;
+    position: absolute;
+    top: 16.46px;
+    left: 37.57px;
+}
+
+.term-image3 {
+    position: absolute;
+    top: 30.35px;
+    left: 38.57px;
+    height: 22px;
+}
+
+/* Term */
+.term {
+    font-weight: 100;
+    margin-top: 18.9px;
+
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.term-name {
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -7.56px;
+}
+
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+
+.term-image-MEMBERSHIP {
+    height: 66.83px;
+    position: absolute;
+    top: 18px;
+    left: -16px;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+
+.location-icon {
+    color: #007bff;
+    /* Change color */
+    font-size: 24px;
+    /* Adjust size */
+    margin-right: 8px;
+    /* Space between icon and text */
+}
+
+/* Base class for all icons */
+.icon {
+    width: 24px;
+    /* Width of the icon */
+    height: 24px;
+    /* Height of the icon */
+    display: inline-block;
+    /* Ensure it behaves like an inline element but allows setting width/height */
+    background-image: url('icons.png');
+    /* Path to your sprite image */
+    background-size: cover;
+    /* Ensure the entire image is used */
+    margin-right: 10px;
+    /* Add space between the icon and the text */
+}
+
+/* Specific class for the "Free MCQ Bank (AI Based)" icon */
+.icon-mcq-bank {
+    background-position: -48px -24px;
+    /* Adjust according to the position of your icon in the sprite */
+}
+
+/* Class for aligning icons and text */
+.icon-container {
+    display: flex;
+    /* Use flexbox to align items */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 10px;
+    /* Add space between each row */
+}
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+
+.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+
+.Location {
+    position: absolute;
+    top: 711.72px;
+    left: 86.87px;
+    color: #FFDC5B;
+    font-size: 23px;
+    z-index: 2;
+}
+
+.Location-imagee {
+    width: 58.59px;
+    position: absolute;
+    top: 740.28px;
+    left: 0.83px;
+    z-index: 2;
+}
+
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+
+.footer {
+    position: absolute;
+    width: 309px;
+    height: 323px;
+    top: 239px;
+    left: -16px;
+    z-index: 2;
+    background-color: rgba(33, 45, 59, 255);
+    clip-path: polygon(48% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
