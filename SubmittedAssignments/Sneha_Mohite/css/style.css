@@ -290,7 +290,7 @@ body {
     text-align: left;
     font-size: 62px;
     font-weight: bolder;
-    color: #000
+    color: white;
 }
 .heading {
   position: absolute;
@@ -451,52 +451,52 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-     font-size: 31px;
+     font-size: 25px;
     position: absolute;
     top: -89.25px;
-    left: 73.59px;
+    left: 20mm;
 	color:white;
 }
 .feature-name2 {
-    font-size: 31px;
+    font-size: 25px;
     position: absolute;
     top: -53.46px;
     left: 20mm;
 	color:white;
 }
 .feature-name3 {
-    font-size: 31px;
+    font-size: 25px;
     position: absolute;
     top: -13.66px;
-    right: -7.56px;
+    left: 20mm;
 	color:white;
 }
 .feature-name4 {
-    font-size: 31px;
+    font-size: 25px;
     position: absolute;
     top: 24.13px;
-    left: 75.59px;
+    left: 20mm;
 	color:white;
 }
 .feature-name5 {
-    font-size: 31px;
+	font-size: 20px;
     position: absolute;
-    top: 62.93px;
-    right: -90.71px;
-	color:white;
+    top: 71.93px;
+    left: 20mm;
+    color: white;
 }
 .feature-name6 {
-    font-size: 31px;
+    font-size: 25px;
     position: absolute;
     top: 104.72px;
-    left: 71.81px;
+    left: 20mm;
 	color:white;
 }
 .feature-name7 {
-    font-size: 31px;
+    font-size: 25px;
     position: absolute;
     top: 144.52px;
-    left: 71.81px;
+    left: 20mm;
 	color:white;
 }
 .feature-imagee {
@@ -508,7 +508,7 @@ body {
 .feature-image1 {
     font-size: 31px;
     position: absolute;
-    top: -94.25px;
+    top: -99.25px;
     left: 26.46px;
 	
 }
@@ -527,14 +527,14 @@ body {
 .feature-image4 {
     font-size: 31px;
     position: absolute;
-    top: 30.35px;
+    top: 29.35px;
     left: 26.46px;
 }
 .feature-image5 {
     font-size: 31px;
     position: absolute;
     top: 66.93px;
-    right: 275.91px;
+    right: 277.91px;
 }
 .feature-image6 {
     font-size: 31px;
@@ -546,7 +546,7 @@ body {
     font-size: 31px;
     position: absolute;
     top: 144.3px;
-    left: 26.46px;
+    left: 24.46px;
 }
 .feature {
     width: 340.16px;
@@ -662,54 +662,7 @@ body {
     left: -598px;
 }
 
-/* .fa-desktop-alt:before, .fa-desktop:before {
-    content: "\f390";
-    position: absolute;
-    top: 46mm;
-    left: -98mm;
-}
-.fa-robot:before {
-    left: -99mm;
-    top: 55mm;
-    content: "\f544";
-    position: absolute;
-}
-.fa-book:before {
-    left: -97mm;
-    content: "\f02d";
-    position: absolute;
-    top: 6mm;
-}
-.fa-laptop:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-laptop2:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-chalkboard-teacher:before {
-    top: 16mm;
-    content: "\f51c";
-    position: absolute;
-    left: -99mm;
-}
-.fa-wifi:before {
-    top: -4mm;
-    left: -98mm;
-    content: "\f1eb";
-    position: absolute;
-}
-.fa-list-squares:before, .fa-list:before {
-    top: 36mm;
-    left: -98mm;
-    content: "\f03a";
-    position: absolute;
-} */
+
 .bi-star:before {
     content: "\f005";
     position: absolute;
