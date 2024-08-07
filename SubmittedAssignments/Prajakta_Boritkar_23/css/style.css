@@ -130,11 +130,11 @@ body {
     height: 87.27px;
 }
 .org-address p {
-    top: 37.8px;
-    margin-left: 75.59px;
+    top: 38.8px;
+    margin-left: 74.59px;
     position: absolute;
     text-align: left;
-    font-size: 12px;
+    font-size: 13px;
     color: #ffffff;
     font-weight: bolder;
 }
@@ -223,10 +223,10 @@ body {
 }
 .image img{
     position: absolute;
-    left: 746px;
+    left: 615px;
     top: 0px;
-    width: 278.54px;
-    height: 60.39px;
+    width: 409.54px;
+    height: 69.39px;
 }
 /* Heading, sub-heading, description, punchlines, offerlines */
 .heading,
@@ -390,19 +390,20 @@ body {
 /* Features */
 .features {
 	position: absolute;
-    left: 5px;
-    top: 511.11px;
-    width: 335.16px;
-    height: 125.57px;
+    left: 21px;
+    top: 718.11px;
+    width: 340.16px;
+    height: 264.57px;
+    height: 264.57px;
 }
 
 /* Feature */
 .features {
 	position:absolute;
-    left:0px;
-    top:718.11px;
-    width:340.16px;
-    height:264.57px;
+	left: 14px;
+	top:718.11px;
+	width: 340.16px;
+	height:264.57px;
 }
 
 /* Feature */
@@ -562,19 +563,19 @@ body {
 .term-image1 {
     position: absolute;
     top: 3.56px;
-    left: 39.57px;
-    height: 21px;
+    left: 56.57px;
+    height: 25px;
 }
 .term-image2 {
     height: 22.68px;
     position: absolute;
-    top: 14.46px;
-    left: 38.57px;
+    top: 17.46px;
+    left: 55.57px;
 }
 .term-image3 {
     position: absolute;
-    top: 29.35px;
-    left: 37.57px;
+    top: 33.35px;
+    left: 55.57px;
     height: 25px;
 }
     
@@ -595,9 +596,9 @@ body {
 }
 .term-name {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
-    margin-left: 105.83px;
+    margin-left: 152.83px;
     text-wrap: balance;
     /* position: absolute; */
     margin-top: -17.56px;
@@ -694,7 +695,7 @@ body {
 }
 .Location {
     position: absolute;
-    top: 840.72px;
+    top: 836.72px;
     left: 75.87px;
     color: #FFDC5B;
     font-size: 24px;
