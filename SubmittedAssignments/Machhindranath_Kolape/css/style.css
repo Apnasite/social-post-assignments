@@ -224,7 +224,13 @@
     color: #0084BB;
     column-count : 2
 }
-.icon-container {
+.feature-name1,
+.feature-name2,
+.feature-name3,
+.feature-name4,
+.feature-name5,
+.feature-name6,
+.feature-name7 {
     right-margin: 3px;
 }
 span {
@@ -389,7 +395,7 @@ span {
     top: 186px;
     left: -43px;
     width: 1066px;
-    height: 75px;
+    height: 80px;
     background-color: #0084BB;
     text-align: center;
     align-content: center;
