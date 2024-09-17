@@ -1,0 +1,232 @@
+@font-face {
+    font-family: mainHeading;
+    src: url("../fonts/Roboto-Bold.ttf");
+  }
+  @media all{
+    body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(198, 187, 187) !important; 
+    }
+    .socialpost-wrapper {
+        overflow: hidden;
+        width: 185mm;
+        height: 185mm;
+        position: relative;
+        background-color: white !important;
+        margin:10mm auto;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Light gray shadow */
+    }
+    .socialpost-background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .socialpost-background .recttopleft1{
+        position: absolute;
+        top: -10mm;
+        left: -40mm;
+        width: 90mm;
+        height: 48mm;
+        background-color: rgb(23, 34, 46);
+        transform: skew(-20deg,-5deg);
+    }
+    .socialpost-background .recttopleft2{
+        position: absolute;
+        top: -10mm;
+        left: 50.5mm;
+        width: 9.5mm;
+        height: 37mm;
+        background-color:  rgb(232, 16, 16);
+        transform: skew(-20deg,-5deg);
+    }
+    .socialpost-background .recttopright{
+        position: absolute;
+        top: 0mm;
+        left: 80mm;
+        width: 120mm;
+        height: 145mm;
+    }
+    .socialpost-background .recttopright .recttop{
+        position: absolute;
+        top: -8mm;
+        left: 13mm;
+        width: 8mm;
+        height: 48mm;
+        background-color:  rgb(232, 16, 16);
+        transform: skew(-20deg,61deg);
+    }
+    .socialpost-background .recttopright svg{
+        position: relative;
+        right: 5mm;   
+        z-index: 1;
+    }
+
+    .socialpost-background .recttopright svg .polygon-img {
+        clip-path: url(#clipPolygonShape);
+    }
+    .socialpost-background .recttopright #polytopright{
+        fill: red;
+    }
+    .socialpost-background .shapebottomright1{
+        position: absolute;
+        top: 140mm;
+        width: 61mm;
+        height: 46mm;
+        z-index: 1;
+    }
+    .socialpost-background .shapebottomright1 #polybottomright1{
+        fill: rgb(23, 34, 46);
+    }
+    .socialpost-background .shapebottomright2 #polybottomright2{
+        fill: rgb(206, 208, 209);
+    }
+    .socialpost-background .shapebottomright2{
+        position: absolute;
+        left: 10mm;
+        top: 140mm;
+        width: 61mm;
+        height: 46mm;
+    }
+
+    .socialpost-background .rectbottomleft1{
+        position: absolute;
+        top: 160mm;
+        left: 80mm;
+        width: 80mm;
+        height: 80mm;
+        background-color: rgb(207, 5, 5);
+        transform: skewX(-20deg);
+    } 
+    .socialpost-background .rectbottomleft2{
+        position: absolute;
+        top: 155mm;
+        left: 95mm;
+        width: 100mm;
+        height: 70mm;
+        background-color: rgb(23, 34, 46);
+        transform: skewX(-20deg);
+        z-index: 1;
+    } 
+    .socialpost-background .shapebottomleft{
+        position: absolute;
+        top: 112mm;
+        left: 81mm;
+        width: 90mm;
+        height: 70mm;
+    }
+    .socialpost-background .shapebottomleft #plygoanbottomleft{
+        fill: rgb(234, 233, 232);
+    }
+
+    .content-wrapper .org-logo{
+        position: relative;
+        left: 5mm;
+        top: 7mm;
+        width: 35mm;
+        height: 20mm;
+        z-index: 2;
+    }
+    .content-wrapper .org-logo img{
+        width: auto;
+        max-height: 100mm;
+        max-width: 100%;
+    }
+    .content-wrapper .socialpost-title {
+        width: 70mm;
+        position: absolute;
+        left: -95mm;
+        top: 50mm;
+        right: 0mm;
+        margin: auto;
+        padding: 1mm;
+        font-size: 40pt; /* Increased font size for more prominence */
+        font-weight: 900; /* Already bold; keep this */
+        line-height: 1.1; /* Adjust line-height for better spacing */
+        font-family: mainHeading; /* Ensure the font-family supports bold weights */
+        color: rgb(23, 34, 46); /* Adjust color for better contrast if needed */
+    }
+    
+    .content-wrapper .socialpost-title span{
+        color:rgb(231, 9, 9);
+    }
+    .content-wrapper .socialpost-content{
+        width: 70mm;
+        position: absolute;
+        left: -90mm;
+        top: 100mm;
+        right: 0mm;
+        margin: auto;
+        line-height: normal;
+    }
+    .content-wrapper .learn-more{
+        width: 70mm;
+        position: absolute;
+        left: -90mm;
+        top: 125mm;
+        right: 0mm;
+        margin: auto;
+    }
+    .content-wrapper .learn-more button{
+        width: auto;
+        padding: 2mm 5mm;
+        border-radius: 10mm;
+        background-color: rgb(23, 34, 46);
+        color: white;
+        font-weight: 700;
+    }
+    .content-wrapper .contact-us{
+        width: 50mm;
+        position: absolute;
+        left: -130mm;
+        top: 162mm;
+        right: 0mm;
+        margin: auto;
+        z-index: 4;
+        color: white;
+    }
+    .content-wrapper .contact-us .icon {
+        position: relative;
+        top: 3mm;
+        left: -2mm;
+        background-color: white;
+        padding: 2mm 2.5mm;
+        color: rgb(23, 34, 46);
+        font-weight: 900; 
+        border-radius: 50%;
+        font-size: 1.5em; 
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    }
+
+    .content-wrapper .contact-us #phoneNumber{
+        position: relative;
+        top: -1mm;
+        left: 12mm;   
+        font-weight: 700;
+        font-size: 4.5mm;
+    }
+    .content-wrapper .contact-us .phone{
+        position: relative;
+        top: 3mm;
+        left: 1mm;
+    }
+    .content-wrapper .contact-us .website{
+        position: relative;
+        top: -15mm;
+        left: 110mm;
+    }
+    .content-wrapper .contact-us .website #visitwebsite{
+        position: relative;
+        top: -2mm;
+        left: 12mm;
+        font-weight: 700;
+        font-size: 5.5mm;
+    }
+        
+}
