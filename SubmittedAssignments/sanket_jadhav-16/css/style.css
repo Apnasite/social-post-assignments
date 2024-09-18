@@ -13,76 +13,161 @@
     background: #ffffff;
 }
 /* Global styles */
+.shape1{
+width: 462px;
+    height: 137px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: 18mm;
+    left: 17.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #f2675a, #feb47b);
+    box-shadow: -9px -8px 10px black;
+}
+.shape2{
+	width: 1024px;
+   height: 1024px;
+    border: 20px solid #7e288a;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+}
+
+.shape3{
+width: 680px;
+    height: 460px;
+    background-color: #67256d;
+    border-top-left-radius: 134px;
+    border-top-right-radius: 245px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 245px;
+    top: 1mm;
+    left: 123.5mm;
+    position: absolute;
+    transform: rotate(134deg);
+    z-index: 0;
+	box-shadow: 0px 2px 10px black;
+}
+
+.shape4{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: -5mm;
+    left: 14.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape5{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: -5mm;
+    left: 84.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 1;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape6{
+	width: 705px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 45mm;
+    left: -63mm;
+    transform: rotate(-46deg);
+    background-color: #d3c6d7;
+}
+ .shape7{
+width: 437px;
+    height: 121px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 101px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: 229mm;
+    left: 143.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #f2675a, #feb47b);
+    box-shadow: -2px -8px 10px black;
+}
+
+.shape8{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: 262mm;
+    left: 167.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 2;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 3px -11px 12px #6e6d6d;
+}
+
+.shape9{
+	width: 383px;
+    height: 69px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    top: 261mm;
+    left: 103.5mm;
+    position: absolute;
+    transform: rotate(135deg);
+    z-index: 1;
+    background: linear-gradient(to left, #652667, #68246e);
+    box-shadow: 6px 4px 12px #6e6d6d;
+}
+.shape10{
+	width: 877px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 183mm;
+    left: 88mm;
+    transform: rotate(-45deg);
+    background-color: #f4dcd8;
+}
+.shape11{
+	width: 877px;
+    height: 93px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 183mm;
+    left: 157mm;
+    transform: rotate(-45deg);
+    background-color: #f4dcd8;
+}
+	
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-.hexagon{
-    position: absolute;
-    left: 128mm;
-    top: -25mm;
-    width: 938px;
-    transform: rotate(-30deg);
-    overflow: hidden;
-    height: 848px;
-    background-color: #091e71;
-    clip-path: polygon(53% -3%, 105% 33%, 130% 31%, 35% 100%, 5% 81%, 10% 23%);
-    z-index: 4;
-}
-.recttop{
-    transform: skew(35deg, 121deg);
-    z-index: 2;
-    top: 4.3mm;
-    left: 150mm;
-    width: 57.13mm;
-    height: 33.5mm;
-    background: rgb(239, 28, 37) !important;
-    position: absolute;
-}
-.recttop1{
-    transform: skew(-27deg, -13deg);
-    z-index: 2;
-    top: -9.7mm;
-    left: -17mm;
-    width: 88.13mm;
-    height: 64.5mm;
-    background: rgb(33, 45, 59) !important;
-    position: absolute;
-}
-
-.recttop2{
-    transform: skew(-27deg, -13deg);
-    z-index: 2;
-    top: -9.7mm;
-    left: 69mm;
-    width: 14.13mm;
-    height: 46.5mm;
-    background: rgb(239, 29, 38) !important;
-    position: absolute;
-}
-.recttop3{
-    transform: skew(-29deg, -1deg);
-    z-index: 2;
-    top: 239.3mm;
-    left: 120mm;
-    width: 18.13mm;
-    height: 73.5mm;
-    background: rgb(186, 13, 15) !important;
-    position: absolute;
-}
-.recttop4{
-    transform: skew(35deg, -50deg);
-    z-index: 2;
-    top: 141.3mm;
-    left: 246mm;
-    width: 125.13mm;
-    height: 285.5mm;
-    background: rgb(229, 231, 233) !important;
-    position: absolute;
-}
-
-
 /* Container */
 .content {
     max-width: 297mm; /* A4 paper width */
@@ -98,41 +183,40 @@ body {
     bottom: 929.76px;
 }
 .org-logo img {
-   
-    top: 84.9px;
-    left: -750.44px;
-    height: 50%;
-    width: 87%;
+    top: 105.9px;
+    left: 133.56px;
+    height: 40%;
+    width: 50%;
     position: absolute;
-    z-index: 2;
 }
-
 /* Organization name */
 .org-name h2 {
-    color: #100f0f;
+    color: #fff;
     position: absolute;
-    right: -540.02px;
-    top: 136.04px;
-    height: 75.59px;
-    width: 577.13px;
-    font-size: 19px;
+    right: 328.98px;
+    top: -629px;
+    z-index: 5;
+    height: 52.59px;
+    width: 674.13px;
+    font-size: 32px;
+    background-color: #62256a;
 }
 .org-address {
     position: absolute;
-    background-color: rgb(33, 45, 59);
-    right: -32px;
-    top: 231mm;
-    width: 487.75px;
-    height: 170.27px;
-    transform: skew(-29deg, 0deg);
+    background-color: black;
+    right: 0px;
+    top: 739.72px;
+    width: 415.75px;
+    height: 98.27px;
     z-index: 2;
+	
 }
 .org-address p {
-    top: 66.8px;
-    margin-left: 24.59px;
+    top: 37.8px;
+    margin-left: 75.59px;
     position: absolute;
     text-align: left;
-    font-size: 17px;
+    font-size: 12px;
     color: #ffffff;
     font-weight: bolder;
 }
@@ -147,45 +231,46 @@ body {
 }
 .org-email {
     font-size: 20px;
-    color: #e22727;
+    color: white;
     position: absolute;
-    right: -374.97px;
-    bottom: -110.65px;
+    right: 592px;
+    bottom: -268.65px;
     height: 18.9px;
     width: 188.98px;
-    z-index: 2;
-
+    z-index: 3;
+}
+.org-email i {
+    font-size: 1.5em;
 }
 .org-website {
-    font-size: 20px;
-    color: #e91212;
+   font-size: 20px;
+    color: white;
     position: absolute;
-    right: -179.87px;
-    bottom: -100.87px;
+    right: 791px;
+    bottom: -267.65px;
     height: 18.9px;
     width: 188.98px;
-    z-index: 2;
+    z-index: 3;
 }
 .org-website i {
     font-size: 1.5em;
 }
 .org-phone {
-    position: absolute;
-    right: 365.56px;
-    top: 932.53px;
-    width: 636.75px;
-    height: -72.41px;
-    font-size: 24px;
-    color: #fdfcfc;
+   position: absolute;
+    right: 227.56px;
+    top: 897.53px;
+    width: 415.75px;
+    height: 75.59px;
+    font-size: 22px;
+    color: black;
     text-align: justify;
-    font-weight: bolder;
-    z-index: 3;
 }
 .org-phone1 {
-    height: 27px;
+    height: 26px;
     position: absolute;
-    right: 298.77px;
-    top: 5.22px;
+    right: 187.77px;
+    top: 3.22px;
+    z-index: 1;
 }
 .org-phone i {
     font-size: 1.5em;
@@ -201,29 +286,19 @@ body {
     width: 100%;
 }
 .background-image img {
-    height: 210mm;
+    height: 440px;
     position: absolute;
-    left: 125mm;
-    top: 0mm;
-    width: 146mm;
-}
-.org-img{
-    position: absolute;
-    left: -1mm;
-    top: -7mm;
-    
-    transform: rotate(30deg);
-   
-    z-index: 4;
-    
+    left: 512px;
+    top: 90px;
+    width: 440px;
+    border-radius: 188pt;
 }
 .image img{
     position: absolute;
-    left: 9px;
+    left: 764px;
     top: 3px;
-    width: 247.54px;
-    height: 61.39px;
-    z-index: 2;
+    width: 246.54px;
+    height: 81.39px;
 }
 /* Heading, sub-heading, description, punchlines, offerlines */
 .heading,
@@ -247,47 +322,50 @@ body {
    color:#ffffff;
 }
 .heading-first {
-    position: absolute;
-    left: 33.13px;
-    top: 200.72px;
+   position: absolute;
+    left: 27.13px;
+    top: 294.72px;
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 50px;
-    font-weight: bolder;
-    color: #0b0b0b;
+    font-size: 53px;
+    font-weight: 500;
+    color: #522d5f;
+    z-index: 2;
 }
 .heading {
-    position: absolute;
-    left: 37.91px;
-    top: 249.42px;
+   position: absolute;
+   left: 29.91px;
+    top: 348.42px;
     width: 453.54px;
     height: 113.39px;
     text-align: left;
     font-size: 39px;
     font-weight: bolder;
     line-height: 1;
-    color: #ff0505;
+    color: #ed9231;
+    z-index: 2;
+    right: 78px;
 }
 .sub-heading {
-    position: absolute;
-    left: 96.59px;
-    top: 302.95px;
+  position: absolute;
+    left: 30.59px;
+    top: 395.95px;
     width: 340.16px;
     height: 37.8px;
-    font-weight: bold;
     text-align: left;
-    font-size: 28px;
+    font-size: 29px;
+    color: #5f2462;
 }
 
 .description {
     position: absolute;
-    left: 26.9px;
-    top: 342.31px;
-    width: 478.8px;
+    left: 31.9px;
+    top: 449.31px;
+    width: 517.8px;
     height: 188.98px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 17px;
 }
 /* Services heading */
 .services-heading {
@@ -298,11 +376,12 @@ body {
 .services {
     position: absolute;
     background-color: black;
-    right: 693px;
-    top: 642.63px;
-    width: 305.75px;
-    height: 130.99px;
+    right: 4px;
+    top: 477.63px;
+    width: 411.75px;
+    height: 126.99px;
     color: #ffffff;
+
 }
 
 /* Service */
@@ -314,19 +393,19 @@ body {
 
 /* Service name */
 .service-name {
-    margin-top: 6.78px;
+   margin-top: 3.78px;
     position: absolute;
     margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     color: #FFDC5B;
 }
 .service-image {
-    height: 74.83px;
+    height: 66.83px;
     position: absolute;
-    left: -10.12px;
-    top: 14.8px;
+    left: -9.12px;
+    top: 18.8px;
 }
 /* Service image */
 .service-image i {
@@ -335,48 +414,49 @@ body {
 
 /* Service description */
 .service-description {
-    margin-top: 42.81px;
+    margin-top: 34.81px;
     position: absolute;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     color: #ffffff;
     margin-left: 71.81px;
     text-wrap: balance;
 }
 .contact-us {
+    color: white;
+    left: -184.87px;
+    /* right: 4mm; */
+    text-align: center;
+    top: 914.76px;
     position: absolute;
-    width: 301px;
-    height: 307px;
-    top: 225mm;
-    left: 11mm;
-    background-color: rgb(229, 231, 233);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    /* background-color: black; */
+    size: 67px;
+    border-right: 67pt solid transparent;
+    border-top: 34.75pt solid #FFDC5B;
+    border-left: 379pt solid #FFDC5B;
 }
-
 .contact-us .p {
     text-emphasis-color: black;
 }
 
 .contact {
-    font-size: 32px;
-    color: #fefefe;
-    position: relative;
-    bottom: 223px;
-    left: 48px;
-    font-weight: bold;
-    z-index: 5;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    bottom: 63px;
+    left: 68px;
 }
 
 /* Features heading */
 .features-heading {
     position: absolute;
-    left: 75.59px;
-    top: 454.84px;
+    left: 74.59px;
+    top: 604.84px;
     width: 340.16px;
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 15px;
+    font-size: 28px;
 }
 
 
@@ -386,7 +466,7 @@ body {
 .features {
 	position:absolute;
     left:0px;
-    top:568.11px;
+    top:718.11px;
     width:340.16px;
     height:264.57px;
 }
@@ -406,94 +486,94 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: -91.25px;
+    top: -66.25px;
     left: 75.59px;
 }
 .feature-name2 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: -71.46px;
-    left:  73.59px;;
+    top: -30.46px;
+    left: 20mm;
 }
 .feature-name3 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: -48.66px;
-    right: 134.44px;
+    top: 8.34px;
+    right: 46.44px;
 }
 .feature-name4 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: -27.87px;
-    left: 73.59px;
+    top: 45.13px;
+    left: 72.59px;
 }
 .feature-name5 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: -8.07px;
-    right: 92.71px;
+    top: 81.93px;
+    right: -19.71px;
 }
 .feature-name6 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: 11.72px;
-    left: 72.81px;
+    top: 120.72px;
+    left: 71.81px;
 }
 .feature-name7 {
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
-    top: 30.52px;
+    top: 156.52px;
     left: 71.81px;
 }
 .feature-imagee {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: 451.5px;
-    left: 43.24px;
+    top: 595.5px;
+    left: 28.24px;
 }
 .feature-image1 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: -94.25px;
-    left: 43.46px;
+    top: -76.25px;
+    left: 26.46px;
 }
 .feature-image2 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: -74.24px;
-    left: 43.46px;
+    top: -38.24px;
+    left: 26.46px;
 }
 .feature-image3 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: -50.44px;
-    left: 43.46px;
+    top: 1.56px;
+    left: 26.46px;
 }
 .feature-image4 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: -30.65px;
-    left: 43.46px;
+    top: 37.35px;
+    left: 26.46px;
 }
 .feature-image5 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: -11.07px;
-    right: 276.91px;
+    top: 72.93px;
+    right: 280.91px;
 }
 .feature-image6 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top: 6.72px;
-    left: 41.68px;
+    top: 109.72px;
+    left: 25.68px;
 }
 .feature-image7 {
-    font-size: 15px;
+    font-size: 31px;
     position: absolute;
-    top:26.3px;
-    left: 42.46px;
+    top: 147.3px;
+    left: 26.46px;
 }
 .feature {
     width: 340.16px;
@@ -523,53 +603,53 @@ body {
 /* Terms heading */
 .terms-heading {
     position: absolute;
-    top: 643.18px;
-    height: 21.8px;
-    right: 386px;
-    width: 286.75px;
+    top: 608.18px;
+    height: 37.8px;
+    right: 0px;
+    width: 415.75px;
     font-weight: bold;
-    margin-left: 43.59px;
+    margin-left: 75.59px;
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     background-color: black;
     color: #FFDC5B;
+	
 }
 
 /* Terms */
 .terms {
     position: absolute;
     background-color: black;
-    right: 386px;
-    top: 668.98px;
-    width: 287.75px;
-    height: 102.18px;
-    z-index: 2;
+    right: 2px;
+    top: 646.98px;
+    width: 415.75px;
+    height: 93.18px;
+	
 }
 .term-image1 {
     position: absolute;
-    top: 6.56px;
-    left: 38.57px;
+    top: 0.56px;
+    left: 39.57px;
     height: 21px;
 }
 .term-image2 {
     height: 22.68px;
     position: absolute;
-    top: 20.46px;
-    left: 37.57px;
+    top: 16.46px;
+   left: 39.57px;
 }
 .term-image3 {
     position: absolute;
-    top: 35.35px;
-    left: 37.57px;
+    top: 31.35px;
+    left: 40.57px;
     height: 25px;
 }
     
 
 /* Term */
 .term {
-    font-weight:100;
-    margin-top:18.9px;
-   
+   font-weight: 100;
+    margin-top: 14.9px;
 }
 .icon {
     font-size: 24px;
@@ -582,12 +662,11 @@ body {
 }
 .term-name {
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
-    margin-left: 102.83px;
+    margin-left: 105.83px;
     text-wrap: balance;
-    /* position: absolute; */
-    margin-top: -8.56px;
+    margin-top: -15.56px
 }
 .bi-wifi::before {
     content: "\f61c";
@@ -603,60 +682,13 @@ body {
     top: 283.46px;
 }
 .term-image-MEMBERSHIP {
-    height: 72.83px;
+   height: 62.83px;
     position: absolute;
-    top: 3px;
-    left: -18px;
+    top: 7px;
+    left: -16px;
 }
 
-/* .fa-desktop-alt:before, .fa-desktop:before {
-    content: "\f390";
-    position: absolute;
-    top: 46mm;
-    left: -98mm;
-}
-.fa-robot:before {
-    left: -99mm;
-    top: 55mm;
-    content: "\f544";
-    position: absolute;
-}
-.fa-book:before {
-    left: -97mm;
-    content: "\f02d";
-    position: absolute;
-    top: 6mm;
-}
-.fa-laptop:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-laptop2:before {
-    top: 26mm;
-    left: -98mm;
-    content: "\f109";
-    position: absolute;
-}
-.fa-chalkboard-teacher:before {
-    top: 16mm;
-    content: "\f51c";
-    position: absolute;
-    left: -99mm;
-}
-.fa-wifi:before {
-    top: -4mm;
-    left: -98mm;
-    content: "\f1eb";
-    position: absolute;
-}
-.fa-list-squares:before, .fa-list:before {
-    top: 36mm;
-    left: -98mm;
-    content: "\f03a";
-    position: absolute;
-} */
+
 .bi-star:before {
     content: "\f005";
     position: absolute;
@@ -726,18 +758,18 @@ body {
     font-size: 68.03px;
 }
 .Location {
-    position: absolute;
-    top: 887.72px;
-    left: 670.87px;
+   position: absolute;
+    top: 745.72px;
+    left: 685.87px;
     color: #FFDC5B;
-    font-size: 40px;
-    z-index: 2;
+    font-size: 20px;
+	z-index: 2;
 }
 .Location-imagee {
-    width: 35.59px;
+    width: 51.59px;
     position: absolute;
-    top: 900.28px;
-    right: 361.83px;
+    top: 756.28px;
+    right: 379.83px;
     z-index: 2;
 }
 .fa-map-marker-alt:before {
@@ -750,13 +782,12 @@ body {
 }
 .footer {
     position: absolute;
-    width: 301px;
-    height: 307px;
-    top: 48mm;
-    left: -93mm;
-    z-index: 2;
-    background-color: rgb(33, 45, 59);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #2949c9;
+    height: 37.8px;
+    left: -604.72px;
+    top: 317.48px;
+    width: 1069.61px;
+    height: 49.13px;
 }
 
 
