@@ -199,9 +199,9 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.51px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.79px;
 }
 /* Organization logo */
 .org-logo {
@@ -334,7 +334,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 18.90px 0;
 }
 .punchline1{
     position:absolute;
