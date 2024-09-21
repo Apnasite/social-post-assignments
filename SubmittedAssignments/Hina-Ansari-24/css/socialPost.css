@@ -1,0 +1,722 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width:1260px;
+    height: 1560px;
+    position: relative;
+    background: #db0808;
+    left: 100pt;
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #cccccc;
+    border: 25pt solid #072944;
+}
+.image img{
+    position:absolute;
+    left:0px;
+    top: 0px;;
+    width:453.54px;
+    height:113.39px;
+}
+.socialpost-wrapper .socialpost-background .square1
+{   right:0pt;
+    top: 0pt;
+    width: 123pt;
+    height: 123pt;
+    border: 30pt solid #0a345b;
+    background: #f1ab3a  !important;
+    position: absolute;
+}
+.socialpost-wrapper .socialpost-background .square2
+{   left: 0pt;
+    bottom: 280pt;
+    width: 100pt;
+    height: 100pt;
+    border: 24pt solid #60d2df;
+    background: #0a345b !important;
+    position: absolute;
+}
+.socialpost-wrapper .socialpost-background .square3
+{   left: 376pt;
+    top: 269pt;
+    width: 36pt;
+    height: 36pt;
+    border: 10pt solid #5cc87b;
+    background: #0a345b !important;
+    position: absolute;
+}
+.socialpost-wrapper .socialpost-background .circle1
+{   right: -41pt;
+    top: 352pt;
+    width: 100pt;
+    height: 100pt;
+    border: 20pt solid #5cc87b;
+    background: transparent !important;
+    position: absolute;
+    border-radius: 85pt;
+}
+.socialpost-wrapper .socialpost-background .circle2
+{   left: 430pt;
+    bottom: -35pt;
+    width: 100pt;
+    height: 100pt;
+    border: 20pt solid #60d2df;
+    background: transparent !important;
+    position: absolute;
+    border-radius: 85pt;
+}
+.socialpost-wrapper .socialpost-background .diamond1
+{   right: 80pt;
+    top: 225pt;
+    width: 25pt;
+    height: 25pt;
+    border: 3pt solid #0a345b;
+    background: transparent !important;
+    position: absolute;
+    border-radius: 4pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .diamond2
+{   left: 400pt;
+    bottom: 145pt;
+    width: 25pt;
+    height: 25pt;
+    border: 3pt solid #0a345b;
+    background: transparent !important;
+    position: absolute;
+    border-radius: 4pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .diamond3
+{   left: 151pt;
+    bottom: 280pt;
+    width: 25pt;
+    height: 25pt;
+    border: 3pt solid #0a345b;
+    background: transparent !important;
+    position: absolute;
+    border-radius: 4pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .rect1
+{   left: 60pt;
+    bottom: -34pt;
+    width: 35pt;
+    height: 225pt;
+    background: #fff !important;
+    position: absolute;
+    border-radius: 16pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .rect2
+{   left: 125pt;
+    bottom: -80pt;
+    width: 59pt;
+    height: 280pt;
+    background: #f1ab3a  !important;
+    position: absolute;
+    border-radius: 30pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .rect3
+{   left: 469pt;
+    top: -66pt;
+    width: 59pt;
+    height: 199pt;
+    background: #f1ab3a !important;
+    position: absolute;
+    border-radius: 30pt;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .rect4
+{   right: 38pt;
+    bottom: -45pt;
+    width: 25pt;
+    height: 181pt;
+    background: #fff !important;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.socialpost-wrapper .socialpost-background .line1
+{
+    right: 15pt;
+    bottom: 14pt;
+    width: 2pt;
+    height: 48pt;
+    background: #072944 !important;
+    position: absolute;
+    transform: rotate(45deg); 
+}
+.socialpost-wrapper .socialpost-background .line2
+{
+    right: 338pt;
+    top: -60pt;
+    width: 2pt;
+    height: 181pt;
+    background: #072944 !important;
+    position: absolute;
+    transform: rotate(45deg); 
+}
+.socialpost-wrapper .socialpost-background .line3
+{
+    left: 220pt;
+    bottom: -22pt;
+    width: 2pt;
+    height: 137pt;
+    background: #072944 !important;
+    position: absolute;
+    transform: rotate(45deg); 
+}
+.socialpost-wrapper .socialpost-background .line4
+{
+    left: 50pt;
+    top: 265pt;
+    width: 2pt;
+    height: 150pt;
+    background: #ffffff !important;
+    position: absolute;
+    transform: rotate(45deg); 
+}
+
+
+.socialpost-wrapper .socialpost-background .dot1
+{   left: 110pt;
+    top: 349pt;
+    width: 8pt;
+    height: 8pt;
+   /* border: 16pt solid #5cc87b;*/
+    background:#5cc87b  !important;
+    position: absolute;
+    border-radius: 4pt;
+}
+
+.socialpost-wrapper .socialpost-background .side-right-img
+{
+    position: absolute;
+    right: 125pt;
+    top: 199pt;
+}
+
+.socialpost-wrapper .socialpost-background .side-right-img img
+{
+   width: 195pt;
+   height: 360pt;
+}
+.socialpost-wrapper .content-wrapper .rect5
+{  left: 534pt;
+    top: 494pt;
+    width: 34pt;
+    height: 170pt;
+    background: #0a345b !important;
+    position: absolute;
+    border-radius: 25pt;
+    transform: rotate(90deg);
+}
+
+.socialpost-wrapper .content-wrapper .side-right-btn
+{
+    right: 160pt;
+    top: 588pt;
+    padding: 6pt 45pt 7pt 45pt;
+    background: #0a345b !important;
+    position: absolute;
+    border-radius: 25pt;
+    
+}
+
+.socialpost-wrapper .content-wrapper .side-right-btn a
+{
+    color: #f1ab3a;
+}
+/*
+.org-website {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 272.13px;
+    bottom: -212.87px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-website i {
+    font-size: 1.5em;
+    }*/
+
+.socialpost-wrapper .socialpost-background .dotted-1 {
+    position: absolute;
+    left: 62pt;
+    top: 349pt;
+    display: flex;
+  }
+  
+
+  .socialpost-wrapper .socialpost-background .dotted-1 .span-dot{
+    background: #098;
+    width: 10pt;
+    height: 10pt;
+    border-radius: 50pt;
+    margin-right: 10pt;
+    display: flex;
+  }
+
+  .socialpost-wrapper .socialpost-background .dotted-2 {
+    position: absolute;
+    left: 62pt;
+    top: 365pt;
+    display: flex;
+  }
+
+  .socialpost-wrapper .socialpost-background .dotted-2 .span-dot-2{
+    background: #098;
+    width: 10pt;
+    height: 10pt;
+    border-radius: 50pt;
+    margin-right: 10pt;
+    display: flex;
+  }
+
+  .socialpost-wrapper .socialpost-background .header-title
+  {
+    position: absolute;
+    top: 20pt;
+    left: 50pt;
+  }
+
+  .socialpost-wrapper .socialpost-background h2
+  {
+    font-size: 20pt;
+    font-family: cursive;
+    font-weight: 600;
+    color: #0a345b;
+  }
+
+  .socialpost-wrapper .socialpost-background h6
+  {
+    font-size: 10pt;
+    font-family: cursive;
+  }
+
+  .socialpost-wrapper .content-wrapper .subHeader-title
+  {
+    position: absolute;
+    top: 100pt;
+    left: 50pt;
+  }
+
+  .socialpost-wrapper .content-wrapper h2
+  {
+    font-size: 36pt;
+    font-family: cursive;
+    font-weight: 600;
+    color: #f1ab3a;
+    padding: 28pt 0pt 1pt 13pt;
+  }
+
+  .socialpost-wrapper .content-wrapper h4
+  {
+    font-size: 19pt;
+    font-family: cursive;
+    padding-left: 10pt;
+  }
+  .sub-heading {
+    position: absolute;
+    left: 75.59px;
+    top: 302.95px;
+    width: 340.16px;
+    height: 77.8px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+    font-family: math;
+    border-right: 4px solid #c8a66c;
+    padding-right: 10pt;
+}
+.description {
+    position: absolute;
+    left: 260.9px;
+    top: 490.31px;
+    width: 404.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 20px;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: black;
+    right: 42px;
+    top: 835.63px;
+    width: 415.75px;
+    height: 222.99px;
+    color: #ffffff;
+}
+
+/* Service */
+.service {
+    width:340.16px;
+    height:37.8px;
+	
+}
+
+/* Service name */
+.service-name {
+    margin-top: 3.78px;
+    position: absolute;
+    margin-left: 71.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    color: #FFDC5B;
+}
+.service-image {
+    height: 105.83px;
+    position: absolute;
+    left: -15.12px;
+    top: 37.8px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 71.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 71.81px;
+    text-wrap: balance;
+    bottom: 40pt;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 75.59px;
+    top: 750.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+}
+
+
+
+
+/* Features */
+.features {
+	position: absolute;
+    left: 290px;
+    top: 833.11px;
+    color: #072944;
+}
+
+.features h3 span {
+	margin-left: 10pt;
+    font-family: cursive;
+    font-weight: 600;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+
+.features ul {
+	list-style-type: none;
+}
+
+.features ul li{
+	margin-left: -30pt;
+    padding-bottom: 10pt;
+}
+
+.features ul li span{
+	margin-left: 15pt;
+}
+
+.org-logo img{
+    height: 70pt;
+    position: absolute;
+    width: 184pt;
+    bottom: 31pt;
+    left: 18pt;
+}
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+/*.footer {
+    position: absolute;
+    background-color: #072944;
+    height: 37.8px;
+    left: -4.72px;
+    top: 1267.48px;
+    width: 1051.61px;
+    height: 33.13px;
+}*/
+.org-email {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 24.03px;
+    bottom: 10.35px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-name{
+    position: absolute;
+    left: 34pt;
+    bottom: -6.65px;
+    
+}
+.org-name h2{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.org-address {
+    margin-top: 51.81px;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 65.81px;
+    text-wrap: balance;
+    bottom: 20pt;
+}
+
+.org-phone {
+    position: absolute;
+    right: 160pt;
+    bottom: -36pt;
+    width: 500.75px;
+    height: 75.59px;
+    font-size: 25px;
+    color: #fff;
+    /* text-align: justify; */
+    /* font-weight: bolder; */
+    font-size: 14px;
+}
+.org-phone1 {
+    height: 71px;
+    position: absolute;
+    right: 230.77px;
+    top: -4.78px;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+.terms {
+    position: absolute;
+    background-color: black;
+    right: 42px;
+    top: 1120.98px;
+    width: 415.75px;
+    height: 126.18px;
+}
+.terms-heading {
+    position: absolute;
+    top: 811.18pt;
+    height: 40px;
+    right: 32pt;
+    width: 415.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 28px;
+    background-color: black;
+    color: #FFDC5B;
+}
+
+.terms ul {
+	list-style-type: none;
+    bottom: 5pt;
+    position: absolute;
+}
+
+.terms ul li{
+    margin-left: 30pt;
+    margin-top: 5pt;
+    color: #fff;
+}
+.terms ul li img{
+	position: absolute;
+    /* top: 7.56px;
+    left: 41.57px; */
+    height: 21px;
+}
+.terms ul li span{
+	margin-left: 20pt;
+    color: #fff;
+}
+
+.term-image2 {
+    height: 22.68px;
+    position: absolute;
+    top: 26.46px;
+    left: 41.57px;
+}
+.term-image3 {
+    position: absolute;
+    top: 45.35px;
+    left: 41.57px;
+    height: 25px;
+}
+    
+
+/* Term */
+.term {
+    font-weight:100;
+    margin-top:18.9px;
+   
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -7.56px;
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+.term-image-MEMBERSHIP {
+    height: 105.83px;
+    position: absolute;
+    top: 12px;
+    left: -27px;
+}
+.loc-name {
+    padding-left: 130pt;
+    margin-top: 3.78px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    color: #FFDC5B;
+}
+.Location {
+    position: absolute;
+    background-color: black;
+    right: 42px;
+    top: 1254.63px;
+    width: 415.75px;
+    height: 121.99px;
+    color: #ffffff;
+}
+
+.Location-image {
+    width: 58pt;
+    height: 105.83px;
+    position: absolute;
+    left: -21.12px;
+    top: 9.8px;
+}
+
+.Location-imagee {
+    width: 75.59px;
+    
+}
+
+.hexagon-1 {
+    width: 100px;
+    height: 57.735px;
+    background: #febe58;
+    position: relative;
+    right: 30pt;
+    top: 12pt;
+  }
+  .hexagon-2 {
+    width: 100px;
+    height: 57.735px;
+    background: #febe58;
+    position: relative;
+    right: 30pt;
+    top: 23pt;
+  }
+  .hexagon-3 {
+    width: 100px;
+    height: 57.735px;
+    background: #febe58;
+    position: relative;
+    right: 30pt;
+    top: 58pt;
+  }
+  .hexagon-1::before, .hexagon-2::before ,.hexagon-3::before  {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid #febe58;
+  }
+  .hexagon-1::after, .hexagon-2::after ,.hexagon-3::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid #febe58;
+  }
+  .f-icon-position{
+    position: absolute;
+    top: 20pt;
+    left: 25pt;
+    font-size: 3.25em !important;
+    line-height: .05em !important;
+    vertical-align: -.075em !important;
+    color: #000;
+  }
+
