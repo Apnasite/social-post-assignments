@@ -16,12 +16,12 @@
 .shape1{
 width: 462px;
     height: 137px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: 18mm;
-    left: 17.5mm;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 68.031px;
+    left: 66.141px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 2;
@@ -30,8 +30,8 @@ width: 462px;
 }
 .shape2{
 	width: 1024px;
-   height: 1024px;
-    border: 20px solid #7e288a;
+    height: 1024px;
+    border: 1.25em solid #7e288a;
     box-sizing: border-box;
     position: absolute;
     z-index: 3;
@@ -41,12 +41,12 @@ width: 462px;
 width: 680px;
     height: 460px;
     background-color: #67256d;
-    border-top-left-radius: 134px;
-    border-top-right-radius: 245px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 245px;
-    top: 1mm;
-    left: 123.5mm;
+    border-top-left-radius: 8.375em;
+    border-top-right-radius: 15.313em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 15.313em;
+    top:3.779px;
+    left: 466.771px;
     position: absolute;
     transform: rotate(134deg);
     z-index: 0;
@@ -56,12 +56,12 @@ width: 680px;
 .shape4{
 	width: 383px;
     height: 69px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: -5mm;
-    left: 14.5mm;
+    border-top-left-radius:6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: -18.897px;
+    left: 54.803px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 2;
@@ -72,12 +72,12 @@ width: 680px;
 .shape5{
 	width: 383px;
     height: 69px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: -5mm;
-    left: 84.5mm;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: -18.897px;
+    left: 319.370px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 1;
@@ -90,20 +90,20 @@ width: 680px;
     height: 93px;
     box-sizing: border-box;
     position: absolute;
-    top: 45mm;
-    left: -63mm;
+    top:170.078px;
+    left: -238.110px;
     transform: rotate(-46deg);
     background-color: #d3c6d7;
 }
  .shape7{
-width: 437px;
+    width: 437px;
     height: 121px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 101px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: 229mm;
-    left: 143.5mm;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 6.313em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 865.511px;
+    left: 542.362px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 2;
@@ -114,12 +114,12 @@ width: 437px;
 .shape8{
 	width: 383px;
     height: 69px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: 262mm;
-    left: 167.5mm;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius: 6.25em;
+    top: 990.236px;
+    left: 633.070px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 2;
@@ -130,12 +130,12 @@ width: 437px;
 .shape9{
 	width: 383px;
     height: 69px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 115px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: 261mm;
-    left: 103.5mm;
+    border-top-left-radius: 6.25em;
+    border-top-right-radius: 7.188em;
+    border-bottom-left-radius: 6.25em;
+    border-bottom-right-radius:6.25em;
+    top:986.456px;
+    left: 391.181px;
     position: absolute;
     transform: rotate(135deg);
     z-index: 1;
@@ -147,8 +147,8 @@ width: 437px;
     height: 93px;
     box-sizing: border-box;
     position: absolute;
-    top: 183mm;
-    left: 88mm;
+    top: 691.653px;
+    left: 332.598px;
     transform: rotate(-45deg);
     background-color: #f4dcd8;
 }
@@ -157,8 +157,8 @@ width: 437px;
     height: 93px;
     box-sizing: border-box;
     position: absolute;
-    top: 183mm;
-    left: 157mm;
+    top: 691.653px;
+    left: 593.385px;
     transform: rotate(-45deg);
     background-color: #f4dcd8;
 }
@@ -170,9 +170,9 @@ body {
 }
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.519px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.795px;
 }
 /* Organization logo */
 .org-logo {
@@ -198,7 +198,7 @@ body {
     z-index: 5;
     height: 52.59px;
     width: 674.13px;
-    font-size: 32px;
+    font-size: 2em;
     background-color: #62256a;
 }
 .org-address {
@@ -216,7 +216,7 @@ body {
     margin-left: 75.59px;
     position: absolute;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #ffffff;
     font-weight: bolder;
 }
@@ -230,7 +230,7 @@ body {
     margin: 18.9px 0;
 }
 .org-email {
-    font-size: 20px;
+    font-size:1.25em;
     color: white;
     position: absolute;
     right: 592px;
@@ -243,7 +243,7 @@ body {
     font-size: 1.5em;
 }
 .org-website {
-   font-size: 20px;
+   font-size: 1.25em;
     color: white;
     position: absolute;
     right: 791px;
@@ -261,7 +261,7 @@ body {
     top: 897.53px;
     width: 415.75px;
     height: 75.59px;
-    font-size: 22px;
+    font-size: 1.375em;
     color: black;
     text-align: justify;
 }
@@ -291,7 +291,7 @@ body {
     left: 512px;
     top: 90px;
     width: 440px;
-    border-radius: 188pt;
+    border-radius: 15.725em;
 }
 .image img{
     position: absolute;
@@ -308,7 +308,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin:18.897px 0;
 }
 .punchline1{
     position:absolute;
@@ -318,7 +318,7 @@ body {
     height:37.8px;
     font-weight: bold;
     text-align: center;
-    font-size: 36px;
+    font-size:2.25em;
    color:#ffffff;
 }
 .heading-first {
@@ -328,7 +328,7 @@ body {
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 53px;
+    font-size: 3.313em;
     font-weight: 500;
     color: #522d5f;
     z-index: 2;
@@ -340,7 +340,7 @@ body {
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 39px;
+    font-size: 2.438em;
     font-weight: bolder;
     line-height: 1;
     color: #ed9231;
@@ -354,7 +354,7 @@ body {
     width: 340.16px;
     height: 37.8px;
     text-align: left;
-    font-size: 29px;
+    font-size: 1.813em;
     color: #5f2462;
 }
 
@@ -365,7 +365,7 @@ body {
     width: 517.8px;
     height: 188.98px;
     text-align: justify;
-    font-size: 17px;
+    font-size: 1.063em;
 }
 /* Services heading */
 .services-heading {
@@ -398,7 +398,7 @@ body {
     margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
-    font-size: 16px;
+    font-size: 1em;
     color: #FFDC5B;
 }
 .service-image {
@@ -417,7 +417,7 @@ body {
     margin-top: 34.81px;
     position: absolute;
     text-align: left;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #ffffff;
     margin-left: 71.81px;
     text-wrap: balance;
@@ -425,22 +425,22 @@ body {
 .contact-us {
     color: white;
     left: -184.87px;
-    /* right: 4mm; */
+   
     text-align: center;
     top: 914.76px;
     position: absolute;
     /* background-color: black; */
     size: 67px;
-    border-right: 67pt solid transparent;
-    border-top: 34.75pt solid #FFDC5B;
-    border-left: 379pt solid #FFDC5B;
+    border-right: 5.604em solid transparent;
+    border-top: 2.906em solid #FFDC5B;
+    border-left: 31.701em solid #FFDC5B;
 }
 .contact-us .p {
     text-emphasis-color: black;
 }
 
 .contact {
-    font-size: 30px;
+    font-size: 1.875em;
     color: black;
     position: absolute;
     bottom: 63px;
@@ -477,7 +477,7 @@ body {
     height:37.8px;
 	font-weight: 200;
     text-align: left;
-    font-size: 18px;
+    font-size:1.125em;
 }
 .feature-name {
     position: relative;
@@ -486,91 +486,91 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: -66.25px;
     left: 75.59px;
 }
 .feature-name2 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: -30.46px;
-    left: 20mm;
+    left: 75.590px;
 }
 .feature-name3 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: 8.34px;
     right: 46.44px;
 }
 .feature-name4 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: 45.13px;
     left: 72.59px;
 }
 .feature-name5 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: 81.93px;
     right: -19.71px;
 }
 .feature-name6 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: 120.72px;
     left: 71.81px;
 }
 .feature-name7 {
-    font-size: 25px;
+    font-size: 1.563em;
     position: absolute;
     top: 156.52px;
     left: 71.81px;
 }
 .feature-imagee {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 595.5px;
     left: 28.24px;
 }
 .feature-image1 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: -76.25px;
     left: 26.46px;
 }
 .feature-image2 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: -38.24px;
     left: 26.46px;
 }
 .feature-image3 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 1.56px;
     left: 26.46px;
 }
 .feature-image4 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 37.35px;
     left: 26.46px;
 }
 .feature-image5 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 72.93px;
     right: 280.91px;
 }
 .feature-image6 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 109.72px;
     left: 25.68px;
 }
 .feature-image7 {
-    font-size: 31px;
+    font-size: 1.938em;
     position: absolute;
     top: 147.3px;
     left: 26.46px;
@@ -588,7 +588,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.133px;
 }
 /* Feature image */
 .feature-image i {

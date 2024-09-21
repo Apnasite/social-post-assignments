@@ -20,8 +20,8 @@ body {
 }
 .hexagon{
     position: absolute;
-    left: 128mm;
-    top: -25mm;
+    left: 483.779px;
+    top: -94.488px;
     width: 938px;
     transform: rotate(-30deg);
     overflow: hidden;
@@ -33,20 +33,20 @@ body {
 .recttop{
     transform: skew(35deg, 121deg);
     z-index: 2;
-    top: 4.3mm;
-    left: 150mm;
-    width: 57.13mm;
-    height: 33.5mm;
+    top: 16.251px;
+    left: 566.929px;
+    width: 215.924px;
+    height: 126.614px;
     background: rgb(239, 28, 37) !important;
     position: absolute;
 }
 .recttop1{
     transform: skew(-27deg, -13deg);
     z-index: 2;
-    top: -9.7mm;
-    left: -17mm;
-    width: 88.13mm;
-    height: 64.5mm;
+    top: -36.661px;
+    left: -64.251px;
+    width: 333.089px;
+    height: 243.779px;
     background: rgb(33, 45, 59) !important;
     position: absolute;
 }
@@ -54,30 +54,30 @@ body {
 .recttop2{
     transform: skew(-27deg, -13deg);
     z-index: 2;
-    top: -9.7mm;
-    left: 69mm;
-    width: 14.13mm;
-    height: 46.5mm;
+    top: -36.661px;
+    left:260.787px;
+    width: 53.404px;
+    height:175.748px;
     background: rgb(239, 29, 38) !important;
     position: absolute;
 }
 .recttop3{
     transform: skew(-29deg, -1deg);
     z-index: 2;
-    top: 239.3mm;
-    left: 120mm;
-    width: 18.13mm;
-    height: 73.5mm;
+    top: 904.440px;
+    left: 453.543px;
+    width: 68.522px;
+    height: 277.795px;
     background: rgb(186, 13, 15) !important;
     position: absolute;
 }
 .recttop4{
     transform: skew(35deg, -50deg);
     z-index: 2;
-    top: 141.3mm;
-    left: 246mm;
-    width: 125.13mm;
-    height: 285.5mm;
+    top: 534.047px;
+    left: 929.763px;
+    width: 472.932px;
+    height: 1079.055px;
     background: rgb(229, 231, 233) !important;
     position: absolute;
 }
@@ -85,9 +85,9 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.519px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.795px;
 }
 /* Organization logo */
 .org-logo {
@@ -121,7 +121,7 @@ body {
     position: absolute;
     background-color: rgb(33, 45, 59);
     right: -32px;
-    top: 231mm;
+    top: 873.070px;
     width: 487.75px;
     height: 170.27px;
     transform: skew(-29deg, 0deg);
@@ -201,16 +201,16 @@ body {
     width: 100%;
 }
 .background-image img {
-    height: 210mm;
+    height: 793.700px;
     position: absolute;
-    left: 125mm;
-    top: 0mm;
-    width: 146mm;
+    left: 472.440px;
+    top: 0px;
+    width: 551.811px;
 }
 .org-img{
     position: absolute;
-    left: -1mm;
-    top: -7mm;
+    left: -3.779px;
+    top: -26.456px;
     
     transform: rotate(30deg);
    
@@ -233,7 +233,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 18.897px 0;
 }
 .punchline1{
     position:absolute;
@@ -253,7 +253,7 @@ body {
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight: bolder;
     color: #0b0b0b;
 }
@@ -264,7 +264,7 @@ body {
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 39px;
+    font-size: 2.438em;
     font-weight: bolder;
     line-height: 1;
     color: #ff0505;
@@ -277,7 +277,7 @@ body {
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 28px;
+    font-size:1.75em;
 }
 
 .description {
@@ -287,7 +287,7 @@ body {
     width: 478.8px;
     height: 188.98px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 0.813em;
 }
 /* Services heading */
 .services-heading {
@@ -319,7 +319,7 @@ body {
     margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #FFDC5B;
 }
 .service-image {
@@ -338,7 +338,7 @@ body {
     margin-top: 42.81px;
     position: absolute;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.75em;
     color: #ffffff;
     margin-left: 71.81px;
     text-wrap: balance;
@@ -347,8 +347,8 @@ body {
     position: absolute;
     width: 301px;
     height: 307px;
-    top: 225mm;
-    left: 11mm;
+    top: 850.393px;
+    left: 41.574px;
     background-color: rgb(229, 231, 233);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
@@ -358,7 +358,7 @@ body {
 }
 
 .contact {
-    font-size: 32px;
+    font-size: 2em;
     color: #fefefe;
     position: relative;
     bottom: 223px;
@@ -376,7 +376,7 @@ body {
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 15px;
+    font-size: 0.938em;
 }
 
 
@@ -397,7 +397,7 @@ body {
     height:37.8px;
 	font-weight: 200;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .feature-name {
     position: relative;
@@ -406,91 +406,91 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-    font-size: 15px;
+    font-size:0.938em;
     position: absolute;
     top: -91.25px;
     left: 75.59px;
 }
 .feature-name2 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -71.46px;
     left:  73.59px;;
 }
 .feature-name3 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -48.66px;
     right: 134.44px;
 }
 .feature-name4 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -27.87px;
     left: 73.59px;
 }
 .feature-name5 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -8.07px;
     right: 92.71px;
 }
 .feature-name6 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 11.72px;
     left: 72.81px;
 }
 .feature-name7 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 30.52px;
     left: 71.81px;
 }
 .feature-imagee {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 451.5px;
     left: 43.24px;
 }
 .feature-image1 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -94.25px;
     left: 43.46px;
 }
 .feature-image2 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -74.24px;
     left: 43.46px;
 }
 .feature-image3 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -50.44px;
     left: 43.46px;
 }
 .feature-image4 {
-    font-size: 15px;
+    font-size: 10.938em;
     position: absolute;
     top: -30.65px;
     left: 43.46px;
 }
 .feature-image5 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -11.07px;
     right: 276.91px;
 }
 .feature-image6 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 6.72px;
     left: 41.68px;
 }
 .feature-image7 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top:26.3px;
     left: 42.46px;
@@ -500,7 +500,7 @@ body {
     height: 30.24px;
     font-weight: 200;
     text-align: left;
-    font-size: 25px;
+    font-size: 1.563em;
 }
 
 
@@ -508,7 +508,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.133px;
 }
 /* Feature image */
 .feature-image i {
@@ -530,7 +530,7 @@ body {
     font-weight: bold;
     margin-left: 43.59px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     background-color: black;
     color: #FFDC5B;
 }
@@ -572,7 +572,7 @@ body {
    
 }
 .icon {
-    font-size: 24px;
+    font-size: 1.5em;
     margin-right: 10px;
   }
 .icon-container {
@@ -582,7 +582,7 @@ body {
 }
 .term-name {
     text-align: left;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #ffffff;
     margin-left: 102.83px;
     text-wrap: balance;
@@ -672,7 +672,7 @@ body {
 }
 .location-icon {
     color: #007bff; /* Change color */
-    font-size: 24px; /* Adjust size */
+    font-size: 1.5em; /* Adjust size */
     margin-right: 8px; /* Space between icon and text */
 }
 
@@ -704,7 +704,7 @@ body {
     font-size: 2em;
 }
 .fa-map-marker-alt:before {
-    font-size: 64.25px;
+    font-size: 4.016em;
     top: 188.98px;
     left: 7.56px;
     content: "\f3c5";
@@ -741,7 +741,7 @@ body {
     z-index: 2;
 }
 .fa-map-marker-alt:before {
-    font-size: 64.25px;
+    font-size: 4.016em;
     top: 188.98px;
     left: 7.56px;
     content: "\f3c5";
