@@ -256,14 +256,15 @@ body {
     font-size: 1.5em;
 }
 .org-phone {
-   position: absolute;
-    right: 227.56px;
-    top: 897.53px;
+    position: absolute;
+    right: 403.56px;
+    top: 900.53px;
     width: 415.75px;
     height: 75.59px;
     font-size: 1.375em;
     color: black;
     text-align: justify;
+    z-index: 2;
 }
 .org-phone1 {
     height: 26px;
@@ -444,7 +445,7 @@ body {
     color: black;
     position: absolute;
     bottom: 63px;
-    left: 68px;
+    left: 31px;
 }
 
 /* Features heading */
@@ -486,43 +487,43 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: -66.25px;
-    left: 75.59px;
+    left: 75.590px;
 }
 .feature-name2 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: -30.46px;
     left: 75.590px;
 }
 .feature-name3 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
-    top: 8.34px;
-    right: 46.44px;
+    top: 6.34px;
+    right: 25.44px;
 }
 .feature-name4 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: 45.13px;
     left: 72.59px;
 }
 .feature-name5 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: 81.93px;
-    right: -19.71px;
+    right: -48.71px;
 }
 .feature-name6 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: 120.72px;
     left: 71.81px;
 }
 .feature-name7 {
-    font-size: 1.563em;
+    font-size: 1.1em;
     position: absolute;
     top: 156.52px;
     left: 71.81px;
@@ -536,43 +537,43 @@ body {
 .feature-image1 {
     font-size: 1.938em;
     position: absolute;
-    top: -76.25px;
+    top: -89.25px;
     left: 26.46px;
 }
 .feature-image2 {
     font-size: 1.938em;
     position: absolute;
-    top: -38.24px;
+    top: -53.24px;
     left: 26.46px;
 }
 .feature-image3 {
     font-size: 1.938em;
     position: absolute;
-    top: 1.56px;
+    top: -16.44px;
     left: 26.46px;
 }
 .feature-image4 {
     font-size: 1.938em;
     position: absolute;
-    top: 37.35px;
+    top: 20.35px;
     left: 26.46px;
 }
 .feature-image5 {
     font-size: 1.938em;
     position: absolute;
-    top: 72.93px;
+    top: 58.93px;
     right: 280.91px;
 }
 .feature-image6 {
     font-size: 1.938em;
     position: absolute;
-    top: 109.72px;
+    top: 96.72px;
     left: 25.68px;
 }
 .feature-image7 {
     font-size: 1.938em;
     position: absolute;
-    top: 147.3px;
+    top: 131.3px;
     left: 26.46px;
 }
 .feature {
