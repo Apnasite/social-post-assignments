@@ -20,8 +20,8 @@ body {
 }
 .hexagon{
     position: absolute;
-    left: 128mm;
-    top: -25mm;
+    left: 483.779px;
+    top: -94.488px;
     width: 938px;
     transform: rotate(-30deg);
     overflow: hidden;
@@ -33,20 +33,20 @@ body {
 .recttop{
     transform: skew(35deg, 121deg);
     z-index: 2;
-    top: 4.3mm;
-    left: 150mm;
-    width: 57.13mm;
-    height: 33.5mm;
+    top: 16.251px;
+    left: 566.929px;
+    width: 215.924px;
+    height: 126.614px;
     background: rgb(239, 28, 37) !important;
     position: absolute;
 }
 .recttop1{
     transform: skew(-27deg, -13deg);
     z-index: 2;
-    top: -9.7mm;
-    left: -17mm;
-    width: 88.13mm;
-    height: 64.5mm;
+    top: -36.661px;
+    left: -64.251px;
+    width: 333.089px;
+    height: 243.779px;
     background: rgb(33, 45, 59) !important;
     position: absolute;
 }
@@ -54,30 +54,30 @@ body {
 .recttop2{
     transform: skew(-27deg, -13deg);
     z-index: 2;
-    top: -9.7mm;
-    left: 69mm;
-    width: 14.13mm;
-    height: 46.5mm;
+    top: -36.661px;
+    left:260.787px;
+    width: 53.404px;
+    height:175.748px;
     background: rgb(239, 29, 38) !important;
     position: absolute;
 }
 .recttop3{
     transform: skew(-29deg, -1deg);
     z-index: 2;
-    top: 239.3mm;
-    left: 120mm;
-    width: 18.13mm;
-    height: 73.5mm;
+    top: 904.440px;
+    left: 453.543px;
+    width: 68.522px;
+    height: 277.795px;
     background: rgb(186, 13, 15) !important;
     position: absolute;
 }
 .recttop4{
     transform: skew(35deg, -50deg);
     z-index: 2;
-    top: 141.3mm;
-    left: 246mm;
-    width: 125.13mm;
-    height: 285.5mm;
+    top: 534.047px;
+    left: 929.763px;
+    width: 472.932px;
+    height: 1079.055px;
     background: rgb(229, 231, 233) !important;
     position: absolute;
 }
@@ -85,9 +85,9 @@ body {
 
 /* Container */
 .content {
-    max-width: 297mm; /* A4 paper width */
+    max-width: 1122.519px; /* A4 paper width */
     margin: 0 auto;
-    padding: 10mm;
+    padding: 37.795px;
 }
 /* Organization logo */
 .org-logo {
@@ -99,9 +99,9 @@ body {
 }
 .org-logo img {
    
-    top: 64.9px;
-    left: -739.44px;
-    height: 59%;
+    top: 84.9px;
+    left: -750.44px;
+    height: 50%;
     width: 87%;
     position: absolute;
     z-index: 2;
@@ -111,7 +111,7 @@ body {
 .org-name h2 {
     color: #100f0f;
     position: absolute;
-    right: -589.02px;
+    right: -540.02px;
     top: 136.04px;
     height: 75.59px;
     width: 577.13px;
@@ -121,15 +121,15 @@ body {
     position: absolute;
     background-color: rgb(33, 45, 59);
     right: -32px;
-    top: 231mm;
+    top: 873.070px;
     width: 487.75px;
     height: 170.27px;
     transform: skew(-29deg, 0deg);
     z-index: 2;
 }
 .org-address p {
-    top: 80.8px;
-    margin-left: 11.59px;
+    top: 66.8px;
+    margin-left: 24.59px;
     position: absolute;
     text-align: left;
     font-size: 17px;
@@ -150,7 +150,7 @@ body {
     color: #e22727;
     position: absolute;
     right: -374.97px;
-    bottom: -103.65px;
+    bottom: -110.65px;
     height: 18.9px;
     width: 188.98px;
     z-index: 2;
@@ -171,20 +171,20 @@ body {
 }
 .org-phone {
     position: absolute;
-    right: 390.56px;
+    right: 365.56px;
     top: 932.53px;
     width: 636.75px;
     height: -72.41px;
-    font-size: 29px;
-    color: #f21a1a;
+    font-size: 24px;
+    color: #fdfcfc;
     text-align: justify;
     font-weight: bolder;
     z-index: 3;
 }
 .org-phone1 {
-    height: 35px;
+    height: 27px;
     position: absolute;
-    right: 293.77px;
+    right: 298.77px;
     top: 5.22px;
 }
 .org-phone i {
@@ -201,16 +201,16 @@ body {
     width: 100%;
 }
 .background-image img {
-    height: 210mm;
+    height: 793.700px;
     position: absolute;
-    left: 125mm;
-    top: 0mm;
-    width: 146mm;
+    left: 472.440px;
+    top: 0px;
+    width: 551.811px;
 }
 .org-img{
     position: absolute;
-    left: -1mm;
-    top: -7mm;
+    left: -3.779px;
+    top: -26.456px;
     
     transform: rotate(30deg);
    
@@ -219,10 +219,10 @@ body {
 }
 .image img{
     position: absolute;
-    left: 376px;
-    top: 0px;
-    width: 199.54px;
-    height: 48.39px;
+    left: 9px;
+    top: 3px;
+    width: 247.54px;
+    height: 61.39px;
     z-index: 2;
 }
 /* Heading, sub-heading, description, punchlines, offerlines */
@@ -233,7 +233,7 @@ body {
 .punchline2,
 .offerline1,
 .offerline2 {
-    margin: 5mm 0;
+    margin: 18.897px 0;
 }
 .punchline1{
     position:absolute;
@@ -248,46 +248,46 @@ body {
 }
 .heading-first {
     position: absolute;
-    left: 49.13px;
-    top: 197.72px;
+    left: 33.13px;
+    top: 200.72px;
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 50px;
+    font-size: 3.125em;
     font-weight: bolder;
     color: #0b0b0b;
 }
 .heading {
     position: absolute;
-    left: 53.91px;
+    left: 37.91px;
     top: 249.42px;
     width: 453.54px;
     height: 113.39px;
     text-align: left;
-    font-size: 39px;
+    font-size: 2.438em;
     font-weight: bolder;
     line-height: 1;
     color: #ff0505;
 }
 .sub-heading {
     position: absolute;
-    left: 102.59px;
+    left: 96.59px;
     top: 302.95px;
     width: 340.16px;
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 28px;
+    font-size:1.75em;
 }
 
 .description {
     position: absolute;
-    left: 18.9px;
+    left: 26.9px;
     top: 342.31px;
-    width: 517.8px;
+    width: 478.8px;
     height: 188.98px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 0.813em;
 }
 /* Services heading */
 .services-heading {
@@ -314,12 +314,12 @@ body {
 
 /* Service name */
 .service-name {
-    margin-top: 11.78px;
+    margin-top: 6.78px;
     position: absolute;
     margin-left: 71.81px;
     font-weight: bold;
     text-align: left;
-    font-size: 12px;
+    font-size: 0.875em;
     color: #FFDC5B;
 }
 .service-image {
@@ -335,10 +335,10 @@ body {
 
 /* Service description */
 .service-description {
-    margin-top: 45.81px;
+    margin-top: 42.81px;
     position: absolute;
     text-align: left;
-    font-size: 10px;
+    font-size: 0.75em;
     color: #ffffff;
     margin-left: 71.81px;
     text-wrap: balance;
@@ -347,8 +347,8 @@ body {
     position: absolute;
     width: 301px;
     height: 307px;
-    top: 225mm;
-    left: 11mm;
+    top: 850.393px;
+    left: 41.574px;
     background-color: rgb(229, 231, 233);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
@@ -358,11 +358,11 @@ body {
 }
 
 .contact {
-    font-size: 30px;
-    color: #f20d23;
+    font-size: 2em;
+    color: #fefefe;
     position: relative;
     bottom: 223px;
-    left: 53px;
+    left: 48px;
     font-weight: bold;
     z-index: 5;
 }
@@ -376,7 +376,7 @@ body {
     height: 37.8px;
     font-weight: bold;
     text-align: left;
-    font-size: 15px;
+    font-size: 0.938em;
 }
 
 
@@ -397,7 +397,7 @@ body {
     height:37.8px;
 	font-weight: 200;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .feature-name {
     position: relative;
@@ -406,91 +406,91 @@ body {
     top: -68.03px;
 }
 .feature-name1 {
-    font-size: 15px;
+    font-size:0.938em;
     position: absolute;
     top: -91.25px;
     left: 75.59px;
 }
 .feature-name2 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -71.46px;
     left:  73.59px;;
 }
 .feature-name3 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -48.66px;
     right: 134.44px;
 }
 .feature-name4 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -27.87px;
     left: 73.59px;
 }
 .feature-name5 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -8.07px;
-    right: 93.71px;
+    right: 92.71px;
 }
 .feature-name6 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
-    top: 10.72px;
+    top: 11.72px;
     left: 72.81px;
 }
 .feature-name7 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 30.52px;
     left: 71.81px;
 }
 .feature-imagee {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 451.5px;
     left: 43.24px;
 }
 .feature-image1 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -94.25px;
     left: 43.46px;
 }
 .feature-image2 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -74.24px;
     left: 43.46px;
 }
 .feature-image3 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -50.44px;
     left: 43.46px;
 }
 .feature-image4 {
-    font-size: 15px;
+    font-size: 10.938em;
     position: absolute;
     top: -30.65px;
     left: 43.46px;
 }
 .feature-image5 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: -11.07px;
     right: 276.91px;
 }
 .feature-image6 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top: 6.72px;
     left: 41.68px;
 }
 .feature-image7 {
-    font-size: 15px;
+    font-size: 0.938em;
     position: absolute;
     top:26.3px;
     left: 42.46px;
@@ -500,7 +500,7 @@ body {
     height: 30.24px;
     font-weight: 200;
     text-align: left;
-    font-size: 25px;
+    font-size: 1.563em;
 }
 
 
@@ -508,7 +508,7 @@ body {
 /* Feature name */
 .feature-name {
     font-weight: 100;
-    margin-left: 13mm;
+    margin-left: 49.133px;
 }
 /* Feature image */
 .feature-image i {
@@ -530,7 +530,7 @@ body {
     font-weight: bold;
     margin-left: 43.59px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     background-color: black;
     color: #FFDC5B;
 }
@@ -554,12 +554,12 @@ body {
 .term-image2 {
     height: 22.68px;
     position: absolute;
-    top: 22.46px;
+    top: 20.46px;
     left: 37.57px;
 }
 .term-image3 {
     position: absolute;
-    top: 38.35px;
+    top: 35.35px;
     left: 37.57px;
     height: 25px;
 }
@@ -572,7 +572,7 @@ body {
    
 }
 .icon {
-    font-size: 24px;
+    font-size: 1.5em;
     margin-right: 10px;
   }
 .icon-container {
@@ -582,12 +582,12 @@ body {
 }
 .term-name {
     text-align: left;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #ffffff;
     margin-left: 102.83px;
     text-wrap: balance;
     /* position: absolute; */
-    margin-top: -7.56px;
+    margin-top: -8.56px;
 }
 .bi-wifi::before {
     content: "\f61c";
@@ -672,7 +672,7 @@ body {
 }
 .location-icon {
     color: #007bff; /* Change color */
-    font-size: 24px; /* Adjust size */
+    font-size: 1.5em; /* Adjust size */
     margin-right: 8px; /* Space between icon and text */
 }
 
@@ -704,7 +704,7 @@ body {
     font-size: 2em;
 }
 .fa-map-marker-alt:before {
-    font-size: 64.25px;
+    font-size: 4.016em;
     top: 188.98px;
     left: 7.56px;
     content: "\f3c5";
@@ -728,7 +728,7 @@ body {
 .Location {
     position: absolute;
     top: 887.72px;
-    left: 657.87px;
+    left: 670.87px;
     color: #FFDC5B;
     font-size: 40px;
     z-index: 2;
@@ -737,11 +737,11 @@ body {
     width: 35.59px;
     position: absolute;
     top: 900.28px;
-    right: 380.83px;
+    right: 361.83px;
     z-index: 2;
 }
 .fa-map-marker-alt:before {
-    font-size: 64.25px;
+    font-size: 4.016em;
     top: 188.98px;
     left: 7.56px;
     content: "\f3c5";
