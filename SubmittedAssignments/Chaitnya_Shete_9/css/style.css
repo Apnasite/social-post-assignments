@@ -1,0 +1,62 @@
+.certificate{
+    height: 608px;
+    width: 600px;
+    border: 7px solid rgb(199, 189, 189);
+    margin-left: 250px;
+    box-shadow: 5px black;
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.1);
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+}
+/* Bottom-left triangle */
+.triangle-bottom-left {
+    bottom: 0;
+    left: 0;
+    border-width: 0 400px 350px 0;
+    border-color: transparent transparent  #004d40 transparent;
+    margin-left: 255px;
+
+    
+}
+
+/* Bottom-right triangle */
+.triangle-bottom-right {
+   
+    border-width: 0 200px 200px;
+    border-color: transparent transparent transparent #004d40;
+    transform: rotate(360deg);
+    
+}
+.content{
+    float: right;
+}
+#demo{
+    font-size: 60px;
+    margin-right: 50px;
+    margin-left: 190px;
+    margin-top: 20px;
+    color:  #127665 ;
+}
+.empty{
+    border-top:2px solid #127665;
+    width: 160px;
+    float: right;
+    margin-right: 70px;
+}
+.lorem{
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 22px;
+    text-align-last: right;
+    color:  #127665 ;
+}
+
+
+.img{
+    display: block;
+}
