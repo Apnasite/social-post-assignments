@@ -1,0 +1,805 @@
+.tri1 {
+    width: 8px;
+    height: 110px;
+    border-left: 124px solid transparent;
+    border-right: 172px solid transparent;
+    border-bottom: 151px solid rgb(3, 75, 118);
+    top: 490pt;
+    position: absolute;
+    left: -54pt;
+    transform: rotate(90deg);
+}
+.center-tri {
+    width: 33px;
+    height: 132px;
+    border-left: 515px solid transparent;
+    border-right: 515px solid transparent;
+    border-bottom: 476px solid rgb(228, 229, 233);
+    top: 412pt;
+    position: absolute;
+    left: -2pt;
+    transform: rotate(0deg);
+}
+.tri2 {
+    width: 74px;
+    height: 84px;
+    border-left: 41px solid transparent;
+    border-right: 92px solid transparent;
+    border-bottom: 165px solid rgb(1, 130, 186);
+    top: 501pt;
+    position: absolute;
+    left: -75pt;
+    transform: rotate(211deg);
+}
+.tri3 {
+    width: 8px;
+    height: 110px;
+    border-left: 172px solid transparent;
+    border-right: 124px solid transparent;
+    border-bottom: 188px solid rgb(3, 75, 118);
+    top: 477pt;
+    position: absolute;
+    left: 601pt;
+    transform: rotate(-90deg);
+}
+.tri4 {
+    width: 74px;
+    height: 84px;
+    border-left: 107px solid transparent;
+    border-right: 41px solid transparent;
+    border-bottom: 165px solid rgb(1, 130, 186);
+    top: 501pt;
+    position: absolute;
+    left: 744pt;
+    transform: rotate(507deg);
+}
+.rect1{
+    position: absolute;
+    width: 204px;
+    height: 7px;
+    top: 590pt;
+    left: -48pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(311deg);
+}
+.rect2{
+    position: absolute;
+    width: 200px;
+    height: 7px;
+    top: 485pt;
+    left: -51pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(399deg);
+}
+.rect3{
+    position: absolute;
+    width: 239px;
+    height: 7px;
+    top: 485pt;
+    left: 660pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(326deg);
+}
+.rect4{
+    position: absolute;
+    width: 204px;
+    height: 7px;
+    top: 585pt;
+    left: 658pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(402deg);
+}
+.rect5{
+    position: absolute;
+    width: 204px;
+    height: 7px;
+    top: 585pt;
+    left: 658pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(402deg);
+}
+.rect-left{
+    position: absolute;
+    width: 723px;
+    height: 10px;
+    top: 553pt;
+    left: -83pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(497deg);
+}
+.rect-right{
+    position: absolute;
+    width: 732px;
+    height: 10px;
+    top: 551pt;
+    left: 312pt;
+    background-color: rgb(1, 130, 186);
+    transform: rotate(403deg);
+}
+
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024px;
+    height: 1024px;
+    position: relative;
+    background: #db0808;
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Container */
+.content {
+    max-width: 297mm; /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;
+    bottom: 929.76px;
+}
+.org-logo img {
+    top: 25.9px;
+    left: 1.56px;
+    height: 73%;
+    width: 109%;
+    position: absolute;
+}
+/* Organization name */
+.org-name h2 {
+    color: #fff;
+    position: absolute;
+    right: 445.98px;
+    top: 610.04px;
+    height: 75.59px;
+    width: 529.13px;
+    font-size: 24px;
+}
+.org-address {
+    position: absolute;
+    background-color: black;
+    right: -23px;
+    top: 506.72px;
+    width: 308.75px;
+    height: 94.27px;
+}
+.org-address p {
+    top: 37.8px;
+    margin-left: 75.59px;
+    position: absolute;
+    text-align: left;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+.org-email {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 68.03px;
+    bottom: -519.65px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-website {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 272.13px;
+    bottom: -518.87px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-website i {
+    font-size: 1.5em;
+}
+.org-phone {
+    z-index: 10;
+    position: absolute;
+    right: 363.56px;
+    top: 902.53px;
+    width: 529.75px;
+    height: 75.59px;
+    font-size: 37px;
+    color: black;
+    text-align: justify;
+    font-weight: bolder;
+}
+.org-phone1 {
+    height: 37px;
+    position: absolute;
+    right: 57.77px;
+    top: 7.22px;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    height: 391px;
+    position: absolute;
+    left: 288px;
+    top: 657px;
+    width: 443.25px;
+    z-index: 2;
+    mix-blend-mode: darken;
+    border-radius: 185px;
+}
+.image img{
+    position:absolute;
+    left:0px;
+    top: 0px;;
+    width:453.54px;
+    height:113.39px;
+}
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+.punchline1{
+    position:absolute;
+    left:0px;
+    top:113.39px;
+    width:453.54px;
+    height:37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+   color:#ffffff;
+}
+.heading-first {
+    position: absolute;
+    left: 13.13px;
+    top: 110.72px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 44px;
+    font-weight: bolder;
+    color: #000;
+}
+.heading {
+    position: absolute;
+    left: 52.91px;
+    top: 156.42px;
+    width: 453.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 53px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #FFDC5B;
+}
+.sub-heading {
+    position: absolute;
+    left: 75.59px;
+    top: 281.95px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+}
+
+.description {
+    position: absolute;
+    left: 18.9px;
+    top: 327.31px;
+    width: 517.8px;
+    height: 188.98px;
+    text-align: justify;
+    font-size: 19px;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: black;
+    right: 595px;
+    top: 519.63px;
+    width: 291.75px;
+    height: 168.99px;
+    color: #ffff;
+}
+
+/* Service */
+.service {
+    width:340.16px;
+    height:37.8px;
+	
+}
+
+/* Service name */
+.service-name {
+    margin-top: -2.22px;
+    position: absolute;
+    margin-left: 71.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    color: #FFDC5B;
+}
+.service-image {
+    height: 81.83px;
+    position: absolute;
+    left: -11.12px;
+    top: 33.8px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 44.81px;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 67.81px;
+    text-wrap: balance;
+}
+.contact-us {
+    color: white;
+    left: -326.87px;
+    /* right: 4mm; */
+    text-align: center;
+    top: 932.76px;
+    position: absolute;
+    /* background-color: black; */
+    size: 67px;
+    border-right: 67pt solid transparent;
+    border-top: 34.75pt solid #FFDC5B;
+    border-left: 379pt solid #FFDC5B;
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    bottom: 44px;
+    left: 5px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 540.59px;
+    top: 27.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 31px;
+}
+
+
+
+
+/* Features */
+.features {
+	position: absolute;
+    left: 470px;
+    top: 141.11px;
+    width: 340.16px;
+    height: 264.57px;
+}
+
+/* Feature */
+.feature {
+    width:340.16px;
+    height:37.8px;
+	font-weight: 200;
+    text-align: left;
+    font-size: 18px;
+}
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+.feature-name1 {
+    font-size: 25px;
+    position: absolute;
+    top: -67.25px;
+    left: 75.59px;
+}
+.feature-name2 {
+    font-size: 25px;
+    position: absolute;
+    top: -30.46px;
+    left: 19mm;
+}
+.feature-name3 {
+    font-size: 25px;
+    position: absolute;
+    top: 5.66px;
+    right: 48.56px;
+}
+.feature-name4 {
+    font-size: 25px;
+    position: absolute;
+    top: 45.13px;
+    left: 72.59px;
+}
+.feature-name5 {
+    font-size: 25px;
+    position: absolute;
+    top: 82.93px;
+    right: -21.71px;
+}
+.feature-name6 {
+    font-size: 25px;
+    position: absolute;
+    top: 120.72px;
+    left: 71.81px;
+}
+.feature-name7 {
+    font-size: 25px;
+    position: absolute;
+    top: 159.52px;
+    left: 71.81px;
+}
+.feature-imagee {
+    font-size: 31px;
+    position: absolute;
+    top: 23.5px;
+    left: 499.24px;
+}
+.feature-image1 {
+    font-size: 31px;
+    position: absolute;
+    top: -74.25px;
+    left: 26.46px;
+}
+.feature-image2 {
+    font-size: 31px;
+    position: absolute;
+    top: -38.24px;
+    left: 26.46px;
+}
+.feature-image3 {
+    font-size: 31px;
+    position: absolute;
+    top: 0.44px;
+    left: 26.46px;
+}
+.feature-image4 {
+    font-size: 31px;
+    position: absolute;
+    top: 35.35px;
+    left: 26.46px;
+}
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: 70.93px;
+    right: 275.91px;
+}
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: 108.72px;
+    left: 22.68px;
+}
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 152.3px;
+    left: 26.46px;
+}
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 335.18px;
+    height: 36.8px;
+    right: 2px;
+    width: 283.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: #FFDC5B;
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: black;
+    right: -62px;
+    top: 374.98px;
+    width: 347.75px;
+    height: 127.18px;
+}
+.term-image1 {
+    position: absolute;
+    top: 7.56px;
+    left: 41.57px;
+    height: 21px;
+}
+.term-image2 {
+    height: 22.68px;
+    position: absolute;
+    top: 26.46px;
+    left: 41.57px;
+}
+.term-image3 {
+    position: absolute;
+    top: 45.35px;
+    left: 41.57px;
+    height: 25px;
+}
+    
+
+/* Term */
+.term {
+    font-weight:100;
+    margin-top:18.9px;
+   
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    text-align: left;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 105.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -7.56px;
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+.term-image-MEMBERSHIP {
+    height: 85.83px;
+    position: absolute;
+    top: 14px;
+    left: -22px;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+.Location {
+    position: absolute;
+    top: 502.72px;
+    left: 809.87px;
+    color: #FFDC5B;
+    font-size: 22px;
+}
+.Location-imagee {
+    width: 71.59px;
+    position: absolute;
+    top: 517.28px;
+    right: 234.83px;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    background-color: #2949c9;
+    left: -737.72px;
+    top: 604.48px;
+    width: 1069.61px;
+    height: 49.13px;
+}
+
+
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
+
