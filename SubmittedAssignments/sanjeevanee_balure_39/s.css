@@ -1,0 +1,722 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024pt;
+    height: 1024pt;
+    position: relative;
+    background: #db0808;
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: radial-gradient(#117778,  #03A062);
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Container */
+.content {
+    max-width: 297mm; /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 312.46pt;
+    width: 226.77pt;
+    height: 121.39pt;
+    bottom: 278.76pt;
+}
+.org-logo img {
+    top: -605.1pt;
+    left: 229.56pt;
+    height: 99%;
+    width: 179%;
+    position: absolute;
+}
+/* Organization name */
+.org-name h2 {
+    color: #fff;
+    position: absolute;
+    right: 469.98pt;
+    top: 309.04pt;
+    height: 75.59pt;
+    width: 533.13pt;
+    font-size: 20pt;
+}
+.org-address {
+    position: absolute;
+    background-color: black;
+    right: 4pt;
+    top: 805.72pt;
+    width: 424.75pt;
+    height: 98.27pt;
+}
+.org-address p {
+    top: 31.8pt;
+    margin-left: 75.59pt;
+    position: absolute;
+    text-align: left;
+    font-size: 13pt;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9pt 0;
+}
+.org-email {
+    font-size: 20pt;
+    color: #fff;
+    position: absolute;
+    right: 68.03pt;
+    bottom: -211.65pt;
+    height: 18.9pt;
+    width: 188.98pt;
+}
+.org-email i {
+    font-size: 1.5mm;
+}
+.org-website {
+    font-size: 20pt;
+    color: #fff;
+    position: absolute;
+    right: 272.13pt;
+    bottom: -212.87pt;
+    height: 18.9pt;
+    width: 188.98pt;
+}
+.org-website i {
+    font-size: 1.5mm;
+}
+.org-phone {
+    position: absolute;
+    right: -61.44pt;
+    top: 892.53pt;
+    width: 414.75pt;
+    height: 75.59pt;
+    font-size: 42pt;
+    color: white;
+    text-align: justify;
+    font-weight: bolder;
+}
+.org-phone1 {
+	height: 39pt;
+    position: absolute;
+    right: 214.77pt;
+    top: 2.22pt;
+}
+.org-phone i {
+    font-size: 1.5mm;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    height: 284pt;
+    position: absolute;
+    left: -33pt;
+    top: 169pt;
+    width: 296.25pt;
+	transform: rotate(-401deg);
+}
+.image img{
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+    width: 451.54pt;
+    height: 83.39pt;
+}
+
+.rect1{
+    position: absolute;
+    left: 13mm;
+    top: 22mm;
+    width: 10.3mm;
+    height: 76mm;
+    background-color: #359f67;
+    transform: rotate(50deg);
+    z-index: 0;
+}
+.rect2{
+    position: absolute;
+    left: 77mm;
+    top: 29mm;
+    width: 10.3mm;
+    height: 108mm;
+    background-color: #359f67;
+    transform: rotate(139deg);
+    z-index: 0;
+}
+.rect3{
+    position: absolute;
+    left: 72mm;
+    top: 98mm;
+    width: 10.3mm;
+    height: 107mm;
+    background-color: #359160;
+    transform: rotate(49deg);
+    z-index: 0;
+}
+.rect4{
+    position: absolute;
+    left: 6mm;
+    top: 109mm;
+    width: 10.3mm;
+    height: 89mm;
+    background-color: #359160;
+    transform: rotate(136deg);
+    z-index: 0;
+}
+
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+.punchline1{
+    position:absolute;
+    left:0pt;
+    top:113.39pt;
+    width:453.54pt;
+    height:37.8pt;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36pt;
+   color:#ffffff;
+}
+.heading-first {
+    position: absolute;
+    left: 10.13pt;
+    top: 77.72pt;
+    width: 453.54pt;
+    height: 113.39pt;
+    text-align: left;
+    font-size: 39pt;
+    font-weight: bolder;
+    color: #000000;
+}
+.heading {
+    position: absolute;
+    left: 27.91pt;
+    top: 97.42pt;
+    width: 511.54pt;
+    height: 113.39pt;
+    text-align: left;
+    font-size: 24pt;
+    font-weight: bolder;
+    line-height: 1;
+    color: #FFDC5B;
+}
+.sub-heading {
+    position: absolute;
+    left: 499.59pt;
+    top: 131.95pt;
+    width: 340.16pt;
+    height: 37.8pt;
+    font-weight: bold;
+    text-align: left;
+    font-size: 23pt;
+}
+
+.description {
+    position: absolute;
+    left: 495.9pt;
+    top: 183.31pt;
+    width: 512.8pt;
+    height: 188.98pt;
+    text-align: justify;
+    font-size: 19pt;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    position: absolute;
+    background-color: black;
+    right: 11pt;
+    top: 375.63pt;
+    width: 415.75pt;
+    height: 222.99pt;
+    color: #ffffff;
+}
+
+/* Service */
+.service {
+    width:340.16pt;
+    height:37.8pt;
+	
+}
+
+/* Service name */
+.service-name {
+    margin-top: 3.78pt;
+    position: absolute;
+    margin-left: 51.81pt;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24pt;
+    color: #FFDC5B;
+}
+.service-image {
+    height: 105.83pt;
+    position: absolute;
+    left: -14.12pt;
+    top: 37.8pt;
+}
+/* Service image */
+.service-image i {
+    font-size: 2mm;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 71.81pt;
+    position: absolute;
+    text-align: left;
+    font-size: 16pt;
+    color: #ffffff;
+    margin-left: 92.81pt;
+    text-wrap: balance;
+}
+.contact-us {
+    color: white;
+    left: -152.87pt;
+    /* right: 4mm; */
+    text-align: center;
+    top: 915.76pt;
+    position: absolute;
+    /* background-color: black; */
+    size: 67pt;
+    border-right: 54pt solid transparent;
+    border-top: 35.75pt solid #FFDC5B;
+    border-left: 300pt solid #FFDC5B;
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    font-size: 23pt;
+    color: black;
+    position: absolute;
+    bottom: 77pt;
+    left: 3pt;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 81.59pt;
+    top: 612.84pt;
+    width: 340.16pt;
+    height: 37.8pt;
+    font-weight: bold;
+    text-align: left;
+    font-size: 44pt;
+}
+
+/* Features */
+.features {
+	position:absolute;
+    left:6pt;
+    top:690.11pt;
+    width:340.16pt;
+    height:500.57pt;
+    z-index:0;
+    overflow:hidden
+}
+
+/* Feature */
+.feature {
+    width:350.16pt;
+    height:45.8pt;
+	font-weight: 200;
+    text-align: left;
+    font-size: 18pt;
+}
+.feature-name {
+    position: relative;
+    font-weight: 150;
+    margin-left: 49.13pt;
+    top: -68.03pt;
+}
+.feature-name1 {
+    font-size: 10pt;
+    position: absolute;
+    top: -10.25pt;
+    left: 75.59pt;
+}
+.feature-name2 {
+    font-size: 22pt;
+    position: absolute;
+    top: 4.54pt;
+    left: 25mm;
+}
+.feature-name3 {
+    font-size: 22pt;
+    position: absolute;
+    top: 43.66pt;
+    right: 71.56pt;
+}
+.feature-name4 {
+    font-size: 22pt;
+    position: absolute;
+    top: 76.13pt;
+    left: 67.59pt;
+}
+.feature-name5 {
+    font-size: 22pt;
+    position: absolute;
+    top: 110.93pt;
+    right: 4.29pt;
+}
+.feature-name6 {
+    font-size: 22pt;
+    position: absolute;
+    top: 148.72pt;
+    left: 67.81pt;
+}
+.feature-name7 {
+    font-size: 22pt;
+    position: absolute;
+    top: 188.52pt;
+    left: 66.81pt;
+}
+.feature-imagee {
+    font-size: 31pt;
+    position: absolute;
+    top: 632.5pt;
+    left: 32.24pt;
+}
+.feature-image1 {
+    font-size: 31pt;
+    position: absolute;
+    top: 1.25pt;
+    left: 26.46pt;
+}
+.feature-image2 {
+    font-size: 37pt;
+    position: absolute;
+    top: 1.24pt;
+    left: 26.46pt;
+}
+.feature-image3 {
+    font-size: 31pt;
+    position: absolute;
+    top: 40.44pt;
+    left: 26.46pt;
+}
+.feature-image4 {
+    font-size: 31pt;
+    position: absolute;
+    top: 75.35pt;
+    left: 26.46pt;
+}
+.feature-image5 {
+    font-size: 31pt;
+    position: absolute;
+    top: 107.93pt;
+    right: 287.91pt;
+}
+.feature-image6 {
+    font-size: 31pt;
+    position: absolute;
+    top: 145.72pt;
+    left: 22.68pt;
+}
+.feature-image7 {
+    font-size: 31pt;
+    position: absolute;
+    top: 187.3pt;
+    left: 26.46pt;
+}
+.feature {
+    width: 340.16pt;
+    height: 30.24pt;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25pt;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2mm;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13pt;
+}
+
+/* Terms heading */
+.terms-heading {
+    position: absolute;
+    top: 608.18pt;
+    height: 37.8pt;
+    right: 12pt;
+    width: 415.75pt;
+    font-weight: bold;
+    margin-left: 75.59pt;
+    text-align: center;
+    font-size: 28pt;
+    background-color: black;
+    color: #FFDC5B;
+}
+
+/* Terms */
+.terms {
+    position: absolute;
+    background-color: black;
+    right: 10pt;
+    top: 646.8pt;
+    width: 415.75pt;
+    height: 151.18pt;
+}
+.term-image1 {
+    position: absolute;
+    top: 8.56pt;
+    left: 55.57pt;
+    height: 26pt;
+}
+.term-image2 {
+    height: 27.68pt;
+    position: absolute;
+    top: 30.46pt;
+    left: 55.57pt;
+}
+.term-image3 {
+    position: absolute;
+    top: 51.35pt;
+    left: 55.57pt;
+    height: 31pt;
+}
+    
+
+/* Term */
+.term {
+    font-weight:100;
+    margin-top:18.9pt;
+   
+}
+.icon {
+    font-size: 24pt;
+    margin-right: 10pt;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10pt;
+}
+.term-name {
+    text-align: left;
+    font-size: 26pt;
+    color: #ffffff;
+    margin-left: 148.83pt;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: -3.56pt;
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78pt;
+    top: -7.56pt;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94pt;
+    top: 283.46pt;
+}
+.term-image-MEMBERSHIP {
+    height: 109.83pt;
+    position: absolute;
+    top: 18pt;
+    left: -27pt;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91pt;
+    left: -366.61pt;
+}
+.fa-star:before {
+    top: -41.57pt;
+    left: -597.17pt;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 24pt; /* Adjust size */
+    margin-right: 8pt; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24pt; /* Width of the icon */
+            height: 24pt; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10pt; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48pt -24pt; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10pt; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2mm;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25pt;
+    top: 188.98pt;
+    left: 7.56pt;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34pt;
+    top: 26.46pt;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03pt;
+}.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78pt;
+    top: -200.31pt;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03pt;
+}
+.Location {
+    position: absolute;
+    top: 806.72pt;
+    left: 671.87pt;
+    color: #FFDC5B;
+    font-size: 36pt;
+}
+.Location-imagee {
+    width: 79.59pt;
+    position: absolute;
+    top: 810.28pt;
+    right: 372.83pt;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25pt;
+    top: 188.98pt;
+    left: 7.56pt;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    background-color: #2949c9;
+    height: 37.8pt;
+    left: -604.72pt;
+    top: 317.48pt;
+    width: 1069.61pt;
+    height: 49.13pt;
+}
+
+/* Term description */
+.term-description {
+    margin-top: 18.9pt;
+}
