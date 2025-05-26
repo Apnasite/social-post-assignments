@@ -191,13 +191,13 @@ body {
 .heading,
 .sub-heading,
 .description,
-.punchline1,
-.punchline2,
-.offerline1,
-.offerline2 {
+.punchline-1,
+.punchline-2,
+.offerline-1,
+.offerline-2 {
     margin: 5mm 0;
 }
-.punchline1{
+.punchline-1{
     position:absolute;
     left:0pt;
     top:113.39pt;
