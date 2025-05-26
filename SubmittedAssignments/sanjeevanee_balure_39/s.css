@@ -33,6 +33,7 @@ body {
     bottom: 278.76pt;
 }
 .org-logo img {
+    object-fit: cover
     top: -605.1pt;
     left: 229.56pt;
     height: 99%;
