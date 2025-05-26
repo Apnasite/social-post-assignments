@@ -191,10 +191,8 @@ body {
 .heading,
 .sub-heading,
 .description,
-.punchline-1,
-.punchline-2,
-.offerline-1,
-.offerline-2 {
+.punchline-1/.punchline-2,
+.offerline-1/.offerline-2 {
     margin: 5mm 0;
 }
 .punchline-1{
