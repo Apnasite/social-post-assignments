@@ -530,15 +530,7 @@ body {
     margin-top:18.9pt;
    
 }
-.icon {
-    font-size: 24pt;
-    margin-right: 10pt;
-  }
-.icon-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10pt;
-}
+
 .term-name {
     text-align: left;
     font-size: 26pt;
