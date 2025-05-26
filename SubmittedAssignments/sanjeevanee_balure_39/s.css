@@ -1,7 +1,7 @@
 .socialpost-wrapper {
     overflow: hidden;
-    width: 1024%;
-    height: 1024%;
+    width: 1024px;
+    height: 1024px;
     position: relative;
     background: #db0808;
 }
@@ -33,7 +33,7 @@ body {
     bottom: 278.76pt;
 }
 .org-logo img {
-    object-fit: cover
+    object-fit: cover;
     top: -605.1pt;
     left: 229.56pt;
     height: 99%;
