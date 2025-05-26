@@ -1,7 +1,7 @@
 .socialpost-wrapper {
     overflow: hidden;
-    width: 1024pt;
-    height: 1024pt;
+    width: 1024%;
+    height: 1024%;
     position: relative;
     background: #db0808;
 }
