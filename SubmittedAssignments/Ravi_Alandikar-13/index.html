@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Post</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="socialpost-wrapper">
+        <div class="socialpost-background">
+
+            <div class="recttopleft1"></div>
+            <div class="recttopleft2"></div>
+            <div class="recttopright">
+                <div class="recttop"></div>
+                <svg width="700" height="800" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Define the clip path : Everything outside the polygoan will be clipped and therefore invisible. -->
+                    <clipPath id="clipPolygonShape">
+                        <polygon points="130,0 600,0 600,680 230,680 55,200 "/>
+                    </clipPath>
+                  
+                    <!-- Image element to be clipped -->
+                    <image class="polygon-img" href="./img/pexels-photo-7063773.webp" width="500" height="500" />
+                </svg>
+            </div>
+            <div class="shapebottomright1">
+                <svg height="173" width="230" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="100,30 210,90 210,173 0,173 0,173 0,90"  id="polybottomright1" />                
+                </svg>
+            </div>
+            <div class="shapebottomright2">
+                <svg height="173" width="230" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="100,30 200,90 200,173 0,173 0,173 0,90"  id="polybottomright2" />                
+                </svg>
+            </div>
+            <div class="rectbottomleft1"></div>
+            <div class="rectbottomleft2"></div>
+            <div class="shapebottomleft">
+                <svg height="200" width="700" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="125,30 410,30 420,190 100,173 30,90"  id="plygoanbottomleft"/>
+                </svg>
+            </div>
+
+        </div>
+        <div class="content-wrapper">
+            <div class="org-logo">
+                <img src="img/org-logo.png" alt="Org-Logo">
+            </div>
+            <div class="socialpost-title">Digital <span>Marketing</span> Expert</div>
+            <div class="socialpost-content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, veniam.</p>
+            </div>
+            <div class="learn-more">
+                <button type="button">LEARN MORE</button>
+            </div>
+            <div class="contact-us"> 
+                <div class="phone">
+                    <span class="icon"><i class="bi bi-telephone-fill"></i></span>
+                    Call for More Info
+                    <span id="phoneNumber">+91 9561708812</span>
+                </div>   
+                <div class="website">
+                    <span class="icon"><i class="bi bi-link-45deg"></i></span>
+                    Visit our Website
+                    <span id="visitwebsite">www.mmeac.com</span>
+                </div>   
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
