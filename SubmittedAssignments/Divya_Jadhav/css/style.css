@@ -1,0 +1,860 @@
+.socialpost-wrapper {
+    overflow: hidden;
+    width: 1024px;
+    height: 1024px;
+    position: relative;
+    background: #db0808;
+}
+.socialpost-background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background:rgb(245, 248, 251);
+}
+.line1{
+    z-index: 3;
+    position: absolute;
+    top: 161mm;
+    left: 28mm;
+    height: 66mm;
+    width: 2mm;
+    transform: rotate(-89deg);
+    background-color: rgb(239, 255, 255);
+}
+.line2{
+    z-index: 3;
+    position: absolute;
+    top: 191mm;
+    left: 72mm;
+    height: 46mm;
+    width: 2mm;
+    transform: rotate(-29deg);
+    background-color: rgb(239, 255, 255);
+
+}
+.line3{
+    z-index: 3;
+    position: absolute;
+    top: 231mm;
+    left: 72mm;
+    height: 48mm;
+    width: 2mm;
+    transform: rotate(26deg);
+    background-color: rgb(239, 255, 255);
+}
+.line4{
+    z-index: 2;
+    position: absolute;
+    top: 237mm;
+    left: 177mm;
+    height: 63mm;
+    width: 2mm;
+    transform: rotate(-36deg);
+    background-color: rgb(239, 255, 255);
+}
+.line5{
+    z-index: 2;
+    position: absolute;
+    top: 240mm;
+    left: 89mm;
+    height: 48mm;
+    width: 2mm;
+    transform: rotate(31deg);
+    background-color: rgb(239, 255, 255);
+}
+.line6{
+    z-index: 2;
+    position: absolute;
+    top: 214mm;
+    left: 130mm;
+    height: 59mm;
+    width: 2mm;
+    transform: rotate(90deg);
+    background-color: rgb(239, 255, 255);
+}
+.line7{
+    z-index: 3;
+    position: absolute;
+    top: 186mm;
+    left: 190mm;
+    height: 55mm;
+    width: 2mm;
+    transform: rotate(34deg);
+    background-color: rgb(239, 255, 255);
+}
+.line8{
+    z-index: 3;
+    position: absolute;
+    top: 232mm;
+    left: 189mm;
+    height: 48mm;
+    width: 2mm;
+    transform: rotate(-33deg);
+    background-color: rgb(239, 255, 255);
+}
+.line9{
+    z-index: 3;
+    position: absolute;
+    top: 156mm;
+    left: 240mm;
+    height: 71mm;
+    width: 2mm;
+    transform: rotate(92deg);
+    background-color: rgb(239, 255, 255);
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(165, 180, 189);
+
+    
+}
+.hex{
+    transform: rotate(-267deg);
+    position: absolute;
+    width: 333px;
+    height: 393px;
+    top: 178mm;
+    left: -3mm;
+    z-index: 3;
+    background-color: rgb(3, 60, 90);
+    clip-path: polygon(52% 0%, 181% 52%, 156% 71%, 63% 138%, 3% 91%, 1% 27%);
+}
+.hex1{
+    transform: rotate(271deg);
+    position: absolute;
+    width: 387px;
+    height: 396px;
+    top: 184mm;
+    left: 169mm;
+    z-index: 3;
+    background-color: rgb(3, 60, 90);
+    clip-path: polygon(49% 1%, 172% 76%, 253% 49%, 110% 173%, 9% 139%, -16% 47%);
+}
+.hex2{
+    z-index: 2;
+    position: absolute;
+    left: 79mm;
+    top: 220mm;
+    transform: rotate(-4deg);
+    overflow: hidden;
+    height: 280px;
+    width: 458px;
+    background-color: rgb(3, 60, 90);
+    clip-path: polygon(16% 20%, 71% 26%, 88% 73%, 89% 104%, -29% 138%, 10% 35%);
+}
+.hex3{
+    z-index: 2;
+    position: absolute;
+    left: -28mm;
+    top: 182mm;
+    transform: rotate(85deg);
+    overflow: hidden;
+    height: 420px;
+    width: 413px;
+    background-color: rgb(145 181 201);
+    clip-path: polygon(54% 10%, 63% 20%, 78% 36%, 74% 89%, 5% 83%, 10% 35%);
+}
+.hex4{
+    z-index: 2;
+    position: absolute;
+    width: 301px;
+    height: 307px;
+    top: 48mm;
+    left: -93mm;
+    z-index: 2;
+    background-color: rgb(3, 60, 90);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.hex5{
+    z-index: 2;
+    position: absolute;
+    left: 79mm;
+    top: 221mm;
+    transform: rotate(-4deg);
+    overflow: hidden;
+    height: 420px;
+    width: 458px;
+    background-color: rgb(90 126 144);
+    clip-path: polygon(28% 20%, 64% 23%, 86% 53%, 84% 94%, -33% 83%, 10% 35%);
+}
+/* Container */
+.content {
+    max-width: 297mm; /* A4 paper width */
+    margin: 0 auto;
+    padding: 10mm;
+}
+/* Organization logo */
+.org-logo {
+    position: absolute;
+    left: 763.46px;
+    width: 226.77px;
+    height: 113.39px;
+    bottom: 929.76px;
+}
+.org-logo img {
+    top: 25.9px;
+    left: -39.44px;
+    height: 65%;
+    width: 109%;
+    position: absolute;
+}
+/* Organization name */
+.org-name h2 {
+    color: #000000;
+    position: absolute;
+    right: 172.98px;
+    top: -66.96px;
+    height: 75.59px;
+    width: 529.13px;
+    font-size: 19px;
+}
+.org-address {
+    z-index: 3;
+    position: absolute;
+    background-color:rgb(3, 60, 90);
+    right: 430px;
+    top: 938.72px;
+    width: 195.75px;
+    height: 77.27px;
+}
+.org-address p {
+    top: 37.8px;
+    margin-left: 32.59px;
+    position: absolute;
+    text-align: left;
+    font-size: 8px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/* Organization email, phone, fax, and website */
+.org-email,
+.org-alternate-email,
+.org-phone,
+.org-alternate-phone,
+.org-fax,
+.org-website {
+    margin: 18.9px 0;
+}
+.org-email {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    right: 414.03px;
+    bottom: 96.35px;
+    height: 18.9px;
+    width: 188.98px;
+}
+.org-email i {
+    font-size: 1.5em;
+}
+.org-website {
+    font-size: 20px;
+    color: #040404;
+    position: absolute;
+    right: 414.13px;
+    bottom: 67.13px;
+    height: 10.9px;
+    width: 188.98px;
+}
+.org-website i {
+    font-size: 1.5em;
+}
+.org-phone {
+    position: absolute;
+    right: 6.56px;
+    top: 736.53px;
+    width: 397.75px;
+    height: 75.59px;
+    font-size: 29pt;
+    color: red;
+    text-align: justify;
+    font-weight: bolder;
+}
+.org-phone1 {
+    height: 37px;
+    width: -6px;
+    position: absolute;
+    right: 63mm;
+    top: -15.78px;
+    font-size: 21pt;
+}
+.org-phone i {
+    font-size: 1.5em;
+}
+.org-phone p{
+    margin-right: -20mm;
+    font-size: 14pt;
+    margin-top: -2mm;
+    margin-bottom: 35rem;
+    width: 78mm;
+    height: 24mm;
+}
+/* Header background image */
+.header-background-image img {
+    width: 100%;
+}
+/* Background image, image, alternate image */
+.background-image img,
+.image img,
+.alternate-image img {
+    width: 100%;
+}
+.background-image img {
+    height: 359px;
+    position: absolute;
+    left: 0px;
+    top: 00px;
+    width: 1021.25px;
+}
+.image img{
+    position:absolute;
+    left:0px;
+    top: 0px;;
+    width:453.54px;
+    height:113.39px;
+}
+/* Heading, sub-heading, description, punchlines, offerlines */
+.heading,
+.sub-heading,
+.description,
+.punchline1,
+.punchline2,
+.offerline1,
+.offerline2 {
+    margin: 5mm 0;
+}
+.punchline1{
+    position:absolute;
+    left:0px;
+    top:113.39px;
+    width:453.54px;
+    height:37.8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+   color:#ffffff;
+}
+.heading-first {
+    position: absolute;
+    left: 607.13px;
+    top: 76.72px;
+    width: 459.54px;
+    height: 113.39px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #362929;
+}
+.heading {
+    position: absolute;
+    left: 222.91px;
+    top: 124.42px;
+    width: 475.54px;
+    height: 65.39px;
+    text-align: left;
+    font-size: 41px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #FFDC5B;
+}
+.sub-heading {
+    position: absolute;
+    left: 311.59px;
+    top: 178.95px;
+    width: 340.16px;
+    height: 29.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 23px;
+}
+
+.description {
+    position: absolute;
+    left: 394.9px;
+    top: 243.31px;
+    width: 579.8px;
+    height: 150.98px;
+    text-align: justify;
+    font-size: 31px;
+}
+/* Services heading */
+.services-heading {
+    margin-top: 0%;
+}
+
+/* Services */
+.services {
+    z-index: 3;
+    position: absolute;
+    background-color: rgb(3, 60, 90);
+    right: 758px;
+    top: 817.63px;
+    width: 251.75px;
+    height: 133.99px;
+    color: #ffffff;
+
+}
+
+/* Service */
+.service {
+    width: 355.16px;
+    height: 24.8px;
+}
+
+/* Service name */
+.service-name {
+    margin-top: 1.78px;
+    position: absolute;
+    margin-left: 21.81px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+    color: #FFDC5B;
+}
+.service-image {
+    height: 50.83px;
+    position: absolute;
+    left: 42.88px;
+    top: -26.2px;
+}
+/* Service image */
+.service-image i {
+    font-size: 2em;
+}
+
+/* Service description */
+.service-description {
+    margin-top: 52.81px;
+    position: absolute;
+    text-align: left;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 17.81px;
+    text-wrap: balance;
+}
+.contact-us {
+    z-index: 3;
+    color: white;
+    left: 316.13px;
+    /* right: 4mm; */
+    text-align: center;
+    top: 774.76px;
+    position: absolute;
+    /* background-color: black; */
+    size: 67px;
+    border-right: 49pt solid transparent;
+   
+}
+.contact-us .p {
+    text-emphasis-color: black;
+}
+
+.contact {
+    z-index: 3;
+    font-size: 26px;
+    color: black;
+    position: absolute;
+    bottom: 261px;
+    left: 292px;
+}
+
+/* Features heading */
+.features-heading {
+    position: absolute;
+    left: 70.59px;
+    top: 280.84px;
+    width: 340.16px;
+    height: 37.8px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 23px;
+}
+
+/* Features */
+.features {
+    height: 2mm;
+    font-size: 7px;
+    position: absolute;
+    top: 420.5px;
+    left: -1.76px;
+}
+
+/* Feature */
+.feature {
+    width:340.16px;
+    height:37.8px;
+	font-weight: 200;
+    text-align: left;
+    font-size: 18px;
+}
+.feature-name {
+    position: relative;
+    font-weight: 100;
+    margin-left: 49.13px;
+    top: -68.03px;
+}
+.feature-name1 {
+    font-size: 25px;
+    position: absolute;
+    top: -91.25px;
+    left: 75.59px;
+}
+.feature-name2 {
+    font-size: 25px;
+    position: absolute;
+    top: -46.46px;
+    left: 19mm;
+}
+.feature-name3 {
+    font-size: 25px;
+    position: absolute;
+    top: -1.66px;
+    right: 50.44px;
+}
+.feature-name4 {
+    font-size: 24px;
+    position: absolute;
+    top: 40.13px;
+    left: 70.59px;
+}
+.feature-name5 {
+    font-size: 25px;
+    position: absolute;
+    top: 88.93px;
+    right: -6.71px;
+}
+.feature-name6 {
+    font-size: 23px;
+    position: absolute;
+    top: 137.72px;
+    left: 64.81px;
+}
+.feature-name7 {
+    font-size: 21px;
+    position: absolute;
+    top: 182.52px;
+    left: 66.81px;
+}
+.feature-imagee {
+    font-size: -9px;
+    position: absolute;
+    top: 278.5px;
+    left: 21.24px;
+}
+.feature-image1 {
+    font-size: 10px;
+    position: absolute;
+    top: -85.25px;
+    left: 33.46px;
+}
+.feature-image2 {
+    font-size: 15px;
+    position: absolute;
+    top:-37.24px;
+    left:33.46px;
+}
+.feature-image3 {
+    font-size: 13px;
+    position: absolute;
+    top: 11.56px;
+    left: 33.46px;
+}
+.feature-image4 {
+    font-size: 33px;
+    position: absolute;
+    top: 31.35px;
+    left: 33.46px;
+}
+.feature-image5 {
+    font-size: 31px;
+    position: absolute;
+    top: 84.93px;
+    right: 286.46px;
+}
+.feature-image6 {
+    font-size: 31px;
+    position: absolute;
+    top: 130.72px;
+    left: 33.46px;
+}
+.feature-image7 {
+    font-size: 31px;
+    position: absolute;
+    top: 170.3px;
+    left: 33.46px;
+}
+.feature {
+    width: 340.16px;
+    height: 30.24px;
+    font-weight: 200;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+/* Feature name */
+.feature-name {
+    font-weight: 100;
+    margin-left: 13mm;
+}
+/* Feature image */
+.feature-image i {
+    font-size: 2em;
+}
+
+/* Feature description */
+.feature-description {
+    margin-top: 49.13px;
+}
+
+/* Terms heading */
+.terms-heading {
+    z-index: 3;
+    position: absolute;
+    top: 812.18px;
+    height: 37.8px;
+    right: 18px;
+    width: 233.75px;
+    font-weight: bold;
+    margin-left: 75.59px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(3, 60, 90);
+    color: #FFDC5B;
+}
+
+/* Terms */
+.terms {
+    z-index: 3;
+    position: absolute;
+    background-color: rgb(3, 60, 90);
+    right: 16px;
+    top: 848.98px;
+    width: 249.75px;
+    height: 103.18px;
+
+}
+.term-image1 {
+    position: absolute;
+    top: 10.56px;
+    left: 17.57px;
+    height: 26px;
+}
+.term-image2 {
+    height: 26px;
+    position: absolute;
+    top: 31.46px;
+    left: 16.57px;
+}
+.term-image3 {
+    position: absolute;
+    top: 54.35px;
+    left: 17.57px;
+    height: 26px;
+
+}
+    
+
+/* Term */
+.term {
+    font-weight: 100;
+    margin-top: 17.9px;
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.term-name {
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 65.83px;
+    text-wrap: balance;
+    /* position: absolute; */
+    margin-top: 20.44px;
+}
+.bi-wifi::before {
+    content: "\f61c";
+    position: absolute;
+    left: 3.78px;
+    top: -7.56px;
+}
+.fa-list:before {
+    color: black;
+    content: "\f03a";
+    position: absolute;
+    left: -600.94px;
+    top: 283.46px;
+}
+.term-image-MEMBERSHIP {
+    height: 50.83px;
+    position: absolute;
+    left: 111.88px;
+    top: -84.2px;
+}
+
+/* .fa-desktop-alt:before, .fa-desktop:before {
+    content: "\f390";
+    position: absolute;
+    top: 46mm;
+    left: -98mm;
+}
+.fa-robot:before {
+    left: -99mm;
+    top: 55mm;
+    content: "\f544";
+    position: absolute;
+}
+.fa-book:before {
+    left: -97mm;
+    content: "\f02d";
+    position: absolute;
+    top: 6mm;
+}
+.fa-laptop:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-laptop2:before {
+    top: 26mm;
+    left: -98mm;
+    content: "\f109";
+    position: absolute;
+}
+.fa-chalkboard-teacher:before {
+    top: 16mm;
+    content: "\f51c";
+    position: absolute;
+    left: -99mm;
+}
+.fa-wifi:before {
+    top: -4mm;
+    left: -98mm;
+    content: "\f1eb";
+    position: absolute;
+}
+.fa-list-squares:before, .fa-list:before {
+    top: 36mm;
+    left: -98mm;
+    content: "\f03a";
+    position: absolute;
+} */
+.bi-star:before {
+    content: "\f005";
+    position: absolute;
+    top: -52.91px;
+    left: -366.61px;
+}
+.fa-star:before {
+    top: -41.57px;
+    left: -597.17px;
+    content: "\f005";
+    position: absolute;
+    color: #FFDC5B;
+}
+.location-icon {
+    color: #007bff; /* Change color */
+    font-size: 24px; /* Adjust size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+        /* Base class for all icons */
+        .icon {
+            width: 24px; /* Width of the icon */
+            height: 24px; /* Height of the icon */
+            display: inline-block; /* Ensure it behaves like an inline element but allows setting width/height */
+            background-image: url('icons.png'); /* Path to your sprite image */
+            background-size: cover; /* Ensure the entire image is used */
+            margin-right: 10px; /* Add space between the icon and the text */
+        }
+
+        /* Specific class for the "Free MCQ Bank (AI Based)" icon */
+        .icon-mcq-bank {
+            background-position: -48px -24px; /* Adjust according to the position of your icon in the sprite */
+        }
+
+        /* Class for aligning icons and text */
+        .icon-container {
+            display: flex; /* Use flexbox to align items */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 10px; /* Add space between each row */
+        }
+
+/* Term image */
+.term-image i {
+    font-size: 2em;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+}
+.fa-dollar-sign:before {
+    color: #FFDC5B;
+    left: 11.34px;
+    top: 26.46px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}.fa-telegram:before {
+    color: #FFDC5B;
+    left: 3.78px;
+    top: -200.31px;
+    content: "\f155";
+    position: absolute;
+    font-size: 68.03px;
+}
+.Location {
+    z-index: 3;
+    position: absolute;
+    top: 935.72px;
+    left: 453.87px;
+    color: #FFDC5B;
+    font-size: 21px;
+}
+.Location-imagee {
+    z-index: 3;
+    width: 26.59px;
+    position: absolute;
+    top: 940.28px;
+    right: 591.83px;
+}
+.fa-map-marker-alt:before {
+    font-size: 64.25px;
+    top: 188.98px;
+    left: 7.56px;
+    content: "\f3c5";
+    position: absolute;
+    color: #FFDC5B;
+}
+.footer {
+    position: absolute;
+    height: 37.8px;
+    left: -413.72px;
+    top: 10.48px;
+    width: 307.61px;
+    height: 52.13px;
+}
+
+
+
+/* Term description */
+.term-description {
+    margin-top: 18.9px;
+}
+
